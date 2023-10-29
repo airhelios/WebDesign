@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: pink;
+    background-color: rgba(192, 255, 193, 0.401);
 }
 
 ol, ul {
@@ -19,6 +19,13 @@ ol, ul {
 
 html, body {
     height: 100%;
+}
+
+p.index {
+    display:flex;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Placement */
@@ -112,6 +119,13 @@ img.logo {
     width: 200px;
 }
 
+img.me {
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 
 /* Code */
@@ -151,4 +165,10 @@ blockquote {
     margin-left: 1em;
     padding-left: 1em;
     border-left: 0.5em solid #f5f5f5;
+}
+
+.center {
+    margin-right:auto;
+    margin-left: auto;
+    width: fit-content;
 }
