@@ -108,6 +108,10 @@ img {
     max-width: 100%;
 }
 
+img.logo {
+    width: 200px;
+}
+
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 
 /* Code */
