@@ -1,0 +1,34 @@
+// @import '../../shared/fontawesome/scss/fontawesome';
+// $fa-font-path: '../../shared/fontawesome/webfonts';
+// @import '../../shared/fontawesome/scss/brands';
+// @import '../../shared/fontawesome/scss/solid';
+// @import '../../shared/fontawesome/scss/regular';
+
+// @import './fontawesome/scss/fontawesome';
+// $fa-font-path: '../scss/fontawesome/webfonts';
+// @import './fontawesome/scss/brands';
+// @import './fontawesome/scss/solid';
+// @import './fontawesome/scss/regular';
+
+$fa-font-path: 'http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts';
+@import './fontawesome/scss/fontawesome';
+
+@import './fontawesome/scss/brands';
+@import './fontawesome/scss/solid';
+@import './fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
+

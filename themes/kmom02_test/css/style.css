@@ -2,7 +2,6 @@
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Montserrat&display=swap");
 .fa,
 .fas,
 .far,
@@ -6070,8 +6069,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../../shared/fontawesome/webfonts/fa-brands-400.eot");
-  src: url("../../shared/fontawesome/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-brands-400.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-brands-400.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-brands-400.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+  src: url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-brands-400.eot");
+  src: url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-brands-400.woff2") format("woff2"), url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-brands-400.woff") format("woff"), url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-brands-400.ttf") format("truetype"), url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
@@ -6087,8 +6086,8 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("../../shared/fontawesome/webfonts/fa-solid-900.eot");
-  src: url("../../shared/fontawesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-solid-900.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-solid-900.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-solid-900.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+  src: url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-solid-900.eot");
+  src: url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-solid-900.woff2") format("woff2"), url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-solid-900.woff") format("woff"), url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-solid-900.ttf") format("truetype"), url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-solid-900.svg#fontawesome") format("svg");
 }
 .fa,
 .fas {
@@ -6105,12 +6104,17 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../../shared/fontawesome/webfonts/fa-regular-400.eot");
-  src: url("../../shared/fontawesome/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-regular-400.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-regular-400.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-regular-400.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+  src: url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-regular-400.eot");
+  src: url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-regular-400.woff2") format("woff2"), url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-regular-400.woff") format("woff"), url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-regular-400.ttf") format("truetype"), url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
 .far {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
+}
+
+.test {
+  background-image: url("http://localhost:8080/dbwebb/design/me/portfolio/themes/kmom02/scss/fontawesome/webfonts/tree2.jpg");
+  background-color: #cccccc;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -6518,9 +6522,4 @@ body {
 
 * {
   color: #000;
-  font-family: "Cormorant Garamond", serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
 }

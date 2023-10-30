@@ -1,14 +1,27 @@
-@import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
 
+@import '../../node_modules/normalize.css/normalize';
+
+@import 'variables';
 @import 'blockquotes';
 @import 'code';
 @import 'mobile-menu';
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Montserrat&display=swap');
 body {
     background-color: $background-color;
 }
 
 * {
     color: $font-color;
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
 }
