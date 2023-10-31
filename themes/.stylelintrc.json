@@ -18,6 +18,9 @@
         "**/node_modules/",
         "shared/fontawesome/**/*.scss",
         "**/*.css",
-        "**/*.min.css"
+        "**/*.min.css",
+        "kmom02_test/",
+        "/kmom02_test/",
+        "kmom02_test/scss/fontawesome/scss/*"
     ]
 }
