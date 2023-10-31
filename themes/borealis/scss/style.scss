@@ -1,0 +1,27 @@
+
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/fontawesome';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+
+@import 'variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&display=swap');
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+    font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
