@@ -10,11 +10,16 @@ $google-font-path: '../../shared/fonts';
 
 @import 'variables';
 @import 'fonts'; /*Downloaded the font for extra credit*/
+@import 'code';
 
 body {
     background-color: $background-color;
+    overflow-y: scroll;    /* Always display scrollbar, avoid hopping pages */
 }
 
+p {
+    line-height: 1.4rem;
+}
 
 .logo {
     max-width: 200px;
@@ -39,7 +44,6 @@ body {
 .footer {
     background-color: $reset-color;
     border: 1px dashed $background-color;
-
 }
 
 
@@ -54,13 +58,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .index {
     max-width: 1200px;
-
 }
 
 .center {
     width: fit-content;
     margin-right: auto;
     margin-left: auto;
+
 }
 
 .me {

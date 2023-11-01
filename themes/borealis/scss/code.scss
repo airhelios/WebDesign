@@ -1,0 +1,16 @@
+@import 'variables';
+
+
+%code {
+    font-style: oblique;
+    background-color: #efecec;
+}
+
+code {
+    @extend %code;
+}
+
+.code 
+{
+    @extend %code;
+}

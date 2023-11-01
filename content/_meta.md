@@ -1,6 +1,5 @@
 ---
-Logo: assets/img/logo.png
-<!--- Logo: image/logo.png*/ --->
+Logo: image/logo.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
@@ -15,5 +14,4 @@ Social:
     - title: Link till dbwebb
       url: https://dbwebb.se/kurser/design-v3/
       icon: "&#127963;"
-
 ---
