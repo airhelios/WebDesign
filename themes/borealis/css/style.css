@@ -6510,7 +6510,32 @@ template {
 }
 /*Downloaded the font for extra credit*/
 body {
-  background-color: rgba(170, 187, 170, 0.463);
+  background-color: rgba(170, 187, 170, 0.462745098);
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.header {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.social {
+  background-color: rgba(170, 187, 170, 0.462745098);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 0.2rem;
+  padding-bottom: 0;
+  max-width: 35%;
+}
+
+.footer {
+  background-color: #fff;
+  border: 1px dashed rgba(170, 187, 170, 0.462745098);
 }
 
 * {

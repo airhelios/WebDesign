@@ -15,6 +15,34 @@ body {
     background-color: $background-color;
 }
 
+
+.logo {
+    max-width: 200px;
+}
+
+.header {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.social {
+    background-color: $background-color;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0.2rem;
+    padding-bottom: 0;
+    max-width: 35%;
+}
+
+.footer {
+    background-color: $reset-color;
+    border: 1px dashed $background-color;
+
+}
+
+
 * {
     color: $font-color;
     font-family: 'Inconsolata', monospace;
