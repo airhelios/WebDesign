@@ -6514,6 +6514,16 @@ template {
   background-color: #efecec;
 }
 
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
 body {
   background-color: rgba(170, 187, 170, 0.462745098);
   overflow-y: scroll; /* Always display scrollbar, avoid hopping pages */
