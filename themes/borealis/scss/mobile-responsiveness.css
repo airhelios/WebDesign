@@ -1,0 +1,15 @@
+@media (max-width: 700px) {
+
+    .span-1 {
+        grid-column: span 3;
+    }
+    
+    .span-2 {
+        grid-column: span 3;
+    }
+    
+    .span-3 {
+        grid-column: span 3;
+    }
+
+}

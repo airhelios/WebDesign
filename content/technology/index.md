@@ -3,33 +3,33 @@ Title: Technologies
 Description: This is my technologies page.
 Template: technologies
 ---
-Technologies
-==========================
+Technologies{.span-3}
+========================== 
 
-<div class="box">
-CSS
+<div class="box span-1" markdown="1">
+[CSS](./technology/css)
 </div>
 
-<div class="box">
-HTML
+<div class="box span-2" markdown="1">
+[HTML](./technology/html)
 </div>
 
-<div class="box">
-JAVASCRIPT
+<div class="box span-2" markdown="1">
+[JAVASCRIPT](./technology/javascript)
 </div>
 
-<div class="box">
-PHP
+<div class="box span-1" markdown="1">
+[PHP](./technology/php)
 </div>
 
-<div class="box">
-PYTHON
+<div class="box span-3" markdown="1">
+[PYTHON](./technology/python)
 </div>
 
-<div class="box">
-GIT
+<div class="box span-1" markdown="1">
+[GIT](./technology/git)
 </div>
 
-<div class="box wide">
-SQLITE
+<div class="box span-2" markdown="1">
+[SQLITE](./technology/sqlite)
 </div>
