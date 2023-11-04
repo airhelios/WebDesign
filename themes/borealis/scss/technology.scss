@@ -1,4 +1,4 @@
-.landingpage {
+.technology-main{
     max-width: $max-width;
     margin-left: auto;
     margin-right: auto;
@@ -7,8 +7,19 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-.landingpage h1 {
+.technology-main h1 {
     justify-self: center;
+}
+
+.box {
+    border: 1px dotted $font-color;
+    border-radius: 5px;
+    padding: 0.25rem;
+    background-color: $reset-color;
+}
+
+.tech {
+    border-top: 2px dotted $font-color;
 }
 
 .span-1 {

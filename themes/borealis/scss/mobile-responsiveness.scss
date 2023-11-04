@@ -11,7 +11,23 @@
         grid-column: span 3;
     }
 
-    div.aside {
+    .aside {
         display: none;
+    }
+
+    .social {
+        max-width: 100%;
+    }
+
+    .title h1 {
+        margin-left: 0;
+    }
+
+    .technology-main {
+       width: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
     }
 }

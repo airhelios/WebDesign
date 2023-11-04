@@ -6,19 +6,16 @@
     margin-right: auto;
     margin-left: auto;
     column-gap: 2rem;
+    padding-bottom: 0.5rem;
 }
 
-div.aside {
+.aside {
     flex-basis: 0;
     flex-grow: 1;
     order: 1;
     background-color: $reset-color;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    margin-left: 5rem;
-    margin-right: 0;
-    
     border: 1px dashed $background-color;
+    height: auto;
 }
 
 .article {
@@ -27,16 +24,27 @@ div.aside {
     flex-basis: 0;
     flex-grow: 2;
     order: 2;
+    background-color: $reset-color;
+    border: 1px dashed $background-color;
 }
 
-ul.aside {
-    margin-top: 2rem;
-    /*list-style: "⏵";*/
+.ul-aside {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
     list-style: none;
     display: flex;
     flex-direction: column;
 }
 
-li.aside {
-    border: 1px dashed $background-color;
+.li-aside {
+    padding-top: 1rem;
+    border-top: 1px dotted $font-color;
+    vertical-align: middle;
+    padding-bottom: 0.25rem;
+}
+
+.li-aside:first-child {
+    padding-top: 1rem;
+    border: 0;
 }
