@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6512,10 +6513,11 @@ template {
 .code, code {
   font-style: oblique;
   background-color: #efecec;
+  text-wrap: wrap;
 }
 
 .landingpage {
-  max-width: 960px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -6539,7 +6541,49 @@ template {
   grid-column: span 3;
 }
 
-@media (max-width: 700px) {
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  column-gap: 2rem;
+}
+
+div.aside {
+  flex-basis: 0;
+  flex-grow: 1;
+  order: 1;
+  background-color: #fff;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 5rem;
+  margin-right: 0;
+  border: 1px dashed rgba(170, 187, 170, 0.462745098);
+}
+
+.article {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  flex-basis: 0;
+  flex-grow: 2;
+  order: 2;
+}
+
+ul.aside {
+  margin-top: 2rem;
+  /*list-style: "⏵";*/
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li.aside {
+  border: 1px dashed rgba(170, 187, 170, 0.462745098);
+}
+
+@media (max-width: 767px) {
   .span-1 {
     grid-column: span 3;
   }
@@ -6548,6 +6592,9 @@ template {
   }
   .span-3 {
     grid-column: span 3;
+  }
+  div.aside {
+    display: none;
   }
 }
 body {

@@ -12,6 +12,7 @@ $google-font-path: '../../shared/fonts';
 @import 'fonts'; /*Downloaded the font for extra credit*/
 @import 'code';
 @import 'technology';
+@import 'subtechnology';
 @import 'mobile-responsiveness';
 
 body {
@@ -59,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .index {
-    max-width: 1200px;
+    max-width: $max-width;
 }
 
 .center {

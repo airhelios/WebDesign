@@ -3,7 +3,7 @@ Title: Docs
 Description: Documentation that came with Pico.
 # hidden: true
 ---
-
+<div class ="index center" markdown='1'>
 ## Welcome to Pico
 
 Congratulations, you have successfully installed [Pico][] %version%.
@@ -412,3 +412,4 @@ For more help have a look at the Pico documentation at http://picocms.org/docs.
 [ModRewrite]: https://httpd.apache.org/docs/current/mod/mod_rewrite.html
 [AllowOverride]: https://httpd.apache.org/docs/current/mod/core.html#allowoverride
 [NginxConfig]: http://picocms.org/in-depth/nginx/
+</div>

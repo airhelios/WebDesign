@@ -1,0 +1,26 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+    <div class="wrapper" role="wrapper">
+
+        <div class="aside">
+            <ul class="aside">
+            <li class="aside"><a href="./css">CSS</a></li>
+            <li class="aside"><a href="./html">HTML</a></li>
+            <li class="aside"><a href="./javascript">JAVASCRIPT</a></li>
+            <li class="aside"><a href="./php">PHP</a></li>
+            <li class="aside"><a href="./python">PYTHON</a></li>
+            <li class="aside"><a href="./git">GIT</a></li>
+            <li class="aside"><a href="./sqlite">SQLITE</a></li>
+            </ul>
+        </div>
+        <div class="article">
+        {{ content }}
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

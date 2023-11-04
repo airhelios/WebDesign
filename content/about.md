@@ -74,7 +74,7 @@ Jag ser på [Sass-hemsida](https://sass-lang.com/documentation/) att det finns m
 
 
 
-### Extrauppgifter
+### Extrauppgifter(kmom02)
 Jag gjorde båda extrauppgifterna. Jag laddade ner fonterna från Google, som jag hänvisar till i `borealis/scss/fonts.scss` samt `shared/fonts`.
 Jag använde lite Twig-kod + ett tillägg i min `_meta.md` för att både visa Font Awesome- och Unicode-ikoner i `footer.twig`:
 

@@ -1,3 +1,9 @@
+---
+Title: HTML
+Description: HTML description.
+Template: subtechnology
+---
+
 # HTML
 
 HyperText Markup Language (HTML) utgör tillsammans med HyperText Transfer Protocol (HTTP) grunden i webben. Webbsidor skrivs i HTML och skickas sedan över internet med hjälp av HTTP.

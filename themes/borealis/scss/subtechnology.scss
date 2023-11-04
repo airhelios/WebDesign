@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: $max-width;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    column-gap: 2rem;
+}
+
+div.aside {
+    flex-basis: 0;
+    flex-grow: 1;
+    order: 1;
+    background-color: $reset-color;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-right: 0;
+    
+    border: 1px dashed $background-color;
+}
+
+.article {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    flex-basis: 0;
+    flex-grow: 2;
+    order: 2;
+}
+
+ul.aside {
+    margin-top: 2rem;
+    /*list-style: "⏵";*/
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+li.aside {
+    border: 1px dashed $background-color;
+}

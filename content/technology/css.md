@@ -1,7 +1,7 @@
 ---
-Title: Technologies
-Description: This is my technologies page.
-Template: technologies
+Title: CSS
+Description: CSS description.
+Template: subtechnology
 ---
 
 # CSS
