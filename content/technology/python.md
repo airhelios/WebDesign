@@ -1,7 +1,7 @@
 ---
 Title: Python
 Description: Python description.
-Template: subtechnology
+Template: technology
 ---
 
 # Python

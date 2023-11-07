@@ -2,6 +2,12 @@
 Logo: image/logo.png
 Tagline: My portfolio.
 Social:
+    - title: Swap theme
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
     - title: Link till sidans github repo.
       url: https://github.com/airhelios/WebDesign
       icon: fab fa-github

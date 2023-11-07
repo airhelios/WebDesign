@@ -1,7 +1,7 @@
 ---
 Title: SQLite
 Description: SQLite description.
-Template: subtechnology
+Template: technology
 ---
 
 # SQLite

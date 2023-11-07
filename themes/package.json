@@ -172,10 +172,16 @@
     "stylelint-config-sass-guidelines": "^10.0.0"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-    "style-borealis": "sass borealis/scss/style.scss borealis/css/style.css --no-source-map",
-    "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass borealis/scss/style.scss:borealis/css/style.css borealis/scss/style-dark.scss:borealis/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass borealis/scss/style.scss:borealis/css/style.min.css borealis/scss/style-dark.scss:borealis/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-dark": "sass borealis/scss/style-dark.scss borealis/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass borealis/scss/style-dark.scss borealis/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass borealis/scss/style.scss borealis/css/style.css --no-source-map",
+    "style-light-min": "sass borealis/scss/style.scss borealis/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

@@ -1,7 +1,7 @@
 ---
 Title: Git
 Description: Git description.
-Template: subtechnology
+Template: technology
 ---
 
 # Git

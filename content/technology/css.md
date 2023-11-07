@@ -1,7 +1,7 @@
 ---
 Title: CSS
 Description: CSS description.
-Template: subtechnology
+Template: technology
 ---
 
 # CSS

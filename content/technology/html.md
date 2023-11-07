@@ -1,7 +1,7 @@
 ---
 Title: HTML
 Description: HTML description.
-Template: subtechnology
+Template: technology
 ---
 
 # HTML

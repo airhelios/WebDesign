@@ -1,7 +1,7 @@
 ---
 Title: JavaScript
 Description: JavaScript description.
-Template: subtechnology
+Template: technology
 ---
 
 # JavaScript
