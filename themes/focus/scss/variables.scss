@@ -1,7 +1,29 @@
-$font-color: #000;
-$font-alternative-color: #fff;
-$accent-color: #ee6c4d;
-$background-color: #aabbaa76;
+$triad-1:#0b0bff;
+$triad-2: #0bfe0b;
+$triad-3: #fe0b0b;
+
+$icon-color: $triad-1;
+$background-color: #fff;
+$background-softer: #f0efef;
 $background-alternative-color: #e0fbfc;
+$background-3: $triad-3;
+
+$border-color: $triad-2;
+
+$font-color: #000;
+$font-color-2: #0bfe0b;
+$font-color-3: $triad-1;
+$font-alternative-color: #fff;
+$link-color: #fe0b0b;
+$link-color-2: $background-color;
+
+$accent-color: #ee6c4d;
+
 $reset-color: #fff;
+
+$header-color: #fe0b0b;
+$code-background: $background-softer;
+
 $max-width: 1200px;
+/*Triad color scheme*
+ #0b0bff  #0bfe0b  #fe0b0b https://pinetools.com/split-complementary-colors */

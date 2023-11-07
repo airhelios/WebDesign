@@ -15,20 +15,25 @@ $google-font-path: '../../shared/fonts';
 @import 'subtechnology';
 @import 'analysis';
 
-
 * {
     box-sizing: border-box;
     border: 0 none;
     margin: 0;
     padding: 0;
+    color: $font-color;
+    font-family: 'Inconsolata', monospace;
 }
 
 html, body {
     height: 100%;
 }
 
+a, a:visited {
+    color: $link-color;
+}
+
 body {
-    background-color: $background-color;
+    background-color: $background-softer;
     overflow-y: scroll;    /* Always display scrollbar, avoid hopping pages */
 }
 
@@ -40,9 +45,6 @@ p {
     line-height: 1.4rem;
 }
 
-.logo {
-    max-width: 200px;
-}
 
 .header {
     max-width: 1200px;
@@ -51,6 +53,8 @@ p {
 }
 
 .social {
+    color: $icon-color;
+    border: 1px dotted $border-color;
     background-color: $background-color;
     margin-left: auto;
     margin-right: auto;
@@ -65,22 +69,25 @@ p {
 }
 
 .footer {
-    background-color: $reset-color;
-    border: 1px dashed $background-color;
+    background-color: $background-3;
 }
 
 
-* {
-    color: $font-color;
-    font-family: 'Inconsolata', monospace;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
+    color: $header-color;
+}
+
+a .site-title {
+    text-decoration: none;
 }
 
 .index {
     max-width: $max-width;
+    background-color: $background-color;
+    padding: 1.4rem;
 }
 
 .center {
@@ -98,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
     width: fit-content;
     margin-right: auto;
-
+    max-width: 200px;
 }
 
 .small {
@@ -128,6 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .site-header {
     width: 100%;
+    background-color: $header-color;
 }
 
 .text-center {

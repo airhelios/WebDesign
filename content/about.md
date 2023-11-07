@@ -5,8 +5,7 @@ Description: This is our about page.
 <div class ="index center" markdown='1'>
 Sidans uppbyggnad{.text-center}
 ==========================
-</div>
-<div class ="index center" markdown='1'>
+
 
 Den här sidan är uppbyggd av
 * [Font Awesome](https://fontawesome.com/)-ikoner &mdash; se footer för de ikoner som har använts.
@@ -69,8 +68,7 @@ De SASS-funktionaliteter jag använde var:
 * @extend i min `code.scss`. Där `pre` använder is av `@extend code`
 * testade operatorer (ex width: 10px + 10px;) men såg ingen nytta av det ... ännu
 
-Jag ser på [Sass-hemsida](https://sass-lang.com/documentation/) att det finns många funktionaliter (ex. funktioner, inbyggda moduler, debug) som jag inte har kollat på än.</div>
-<div class ="index center" markdown='1'>
+Jag ser på [Sass-hemsida](https://sass-lang.com/documentation/) att det finns många funktionaliter (ex. funktioner, inbyggda moduler, debug) som jag inte har kollat på än.
 ### Extrauppgifter(kmom02)
 Jag gjorde båda extrauppgifterna. Jag laddade ner fonterna från Google, som jag hänvisar till i `borealis/scss/fonts.scss` samt `shared/fonts`.
 Jag använde lite Twig-kod + ett tillägg i min `_meta.md` för att både visa Font Awesome- och Unicode-ikoner i `footer.twig`:
@@ -119,9 +117,7 @@ Jag använde mig av <b>grid</b> på technology-sidan och av <b>flexbox</b> på d
 
 <li>Jag påmindes igenom om att det är bäst att ha import av mobile-responsiveness-CSS-delen längst ner i sin stylesheet. Annars kommer den ju inte skriva om något.</li>
 </ul>
-</div>
 
-<div class ="index center" markdown='1'>
 ### Extrauppgifter(kmom03)
 <ul>
 <li>Jag såg till så att footern använde sig av flex.</li>
@@ -129,3 +125,14 @@ Jag använde mig av <b>grid</b> på technology-sidan och av <b>flexbox</b> på d
 </ul>
 </div>
 
+<div class ="index center" markdown='1'>
+#### Good to know stuff
+* sass --watch focus/scss/style.scss focus/css/style.min.css --no-source-map --style compressed
+* git tag -a v4.0.1 -m "Adding new color scheme"
+* git push origin --tags
+</div>
+
+<div class ="index center" markdown='1'>
+#### Att göra imorgon
+* Kolla font awesome-ikonerna. Varför skrivs deras färger över av *?
+</div>

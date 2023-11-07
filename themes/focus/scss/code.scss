@@ -3,8 +3,10 @@
 
 %code {
     font-style: oblique;
-    background-color: #efecec;
+    background-color: $code-background;
     text-wrap: wrap;
+    color: $font-color-3;
+
 }
 
 code {
