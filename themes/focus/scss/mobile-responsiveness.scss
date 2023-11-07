@@ -1,0 +1,33 @@
+@media (max-width: 767px) {
+    .span-1 {
+        grid-column: span 3;
+    }
+    
+    .span-2 {
+        grid-column: span 3;
+    }
+    
+    .span-3 {
+        grid-column: span 3;
+    }
+
+    .aside {
+        display: none;
+    }
+
+    .social {
+        max-width: 100%;
+    }
+
+    .title h1 {
+        margin-left: 0;
+    }
+
+    .technology-main {
+        width: 100%;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+}

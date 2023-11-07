@@ -127,6 +127,5 @@ Jag använde mig av <b>grid</b> på technology-sidan och av <b>flexbox</b> på d
 <li>Jag såg till så att footern använde sig av flex.</li>
 <li>Jag satt ett tag och försökte få navbaren att använda sig av flex. Det blev inte lika fint vid en kollapsad menu så därför skippade jag det.</li>
 </ul>
-
 </div>
 
