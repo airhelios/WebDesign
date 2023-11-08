@@ -40,10 +40,10 @@ Klicka på bilderna för större format.
 Cristiano Ronaldo har använt sig av ett monokromatiskt färgschema: 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #fff">
-<td style="height: 50px; width: 50px; background-color: #ff671f">
-<td style="height: 50px; width: 50px; background-color: #0b0b0b">
-<td style="height: 50px; width: 50px; background-color: #000000">
+<td style="height: 50px; width: 50px; background-color: #fff"></td>
+<td style="height: 50px; width: 50px; background-color: #ff671f"></td>
+<td style="height: 50px; width: 50px; background-color: #0b0b0b"></td>
+<td style="height: 50px; width: 50px; background-color: #000000"></td>
 </tr>
 </table>
 Bilderna har en låg konstrast men när man hovrar över bilder som avbildar honom så får de en orange färgton.
@@ -78,11 +78,11 @@ Klicka på bilderna för större format.
 David McRaney har använt sig av ett monokromatiskt, alternativt ett analogt färgschema (se hjulet ovan): 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #fff">
-<td style="height: 50px; width: 50px; background-color: #f2f5f6">
-<td style="height: 50px; width: 50px; background-color: #4062a5">
-<td style="height: 50px; width: 50px; background-color: #345d93">
-<td style="height: 50px; width: 50px; background-color: #293047">
+<td style="height: 50px; width: 50px; background-color: #fff"></td>
+<td style="height: 50px; width: 50px; background-color: #f2f5f6"></td>
+<td style="height: 50px; width: 50px; background-color: #4062a5"></td>
+<td style="height: 50px; width: 50px; background-color: #345d93"></td>
+<td style="height: 50px; width: 50px; background-color: #293047"></td>
 </tr>
 </table>
 
@@ -116,11 +116,11 @@ Klicka på bilderna för större format.
 Selena Gomez har även hon använt sig av ett monokromatiskt färgschema (se hjulet ovan): 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #fff">
-<td style="height: 50px; width: 50px; background-color: #f5f4f0">
-<td style="height: 50px; width: 50px; background-color: #ca8d88">
-<td style="height: 50px; width: 50px; background-color: #951c11">
-<td style="height: 50px; width: 50px; background-color: #373735">
+<td style="height: 50px; width: 50px; background-color: #fff"></td>
+<td style="height: 50px; width: 50px; background-color: #f5f4f0"></td>
+<td style="height: 50px; width: 50px; background-color: #ca8d88"></td>
+<td style="height: 50px; width: 50px; background-color: #951c11"></td>
+<td style="height: 50px; width: 50px; background-color: #373735"></td>
 </tr>
 </table>
 

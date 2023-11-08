@@ -130,13 +130,26 @@ Jag använde mig av <b>grid</b> på technology-sidan och av <b>flexbox</b> på d
 Kmom04{#kmom04 .about-h2}
 --------------- 
 <ul>
-<li>Färger är svåra.</li>
-<li>Det är otroligt lätt att en mix and match av olika färger (oavsett om det är komplement, komplement/split, eller triadisk) blir väldigt gräll. Analoga färger och monokromatiska har inte samma problem tror jag. Det man kan göra är att ha en "huvudfärg" som är någonstans i gråskalan och sen kan man ha de andra färgerna som kompletterar.</li>
-<li>Jag lyckades tyvärr inte få till en estetiskt tilltalande färgmix :/</li>
-<li>Jag var lite behjälpt av att jag redan innan hade valt ut fonter som jag tyckte passade ihop med mitt tidigare färgschema. Mitt nya färgschema var bara en vidareutveckling på det gamla.</li>
-<li>Jag försökte lägga ett filter på min fav icon men jag fick inte filtret att fungera. Så jag gjorde the next best thing: jag gjorde den svartvit.</li>
-<li>I framtiden så kommer jag skapa en `variables.scss` och hålla mig till ett fåtal färger som jag återanvänder. Nu kändes det som att jag lappade min CSS-kod med mina förändringar, vilket också betyder att det förmodligen är kvar artefakter som inte används längre. En del av detta löste jag genom att skapa `*-dark.scss` versioner av befintliga `*.scss-filer`</li>
-<li>Jag valde ett "komplement färgschema" för att jag var trött på analog/monokromatisk efter att ha gjort min färgstudie. Jag tänkte att det skulle bli enkelt med komplement, för då behöver man bara ha 2 extra färger i beaktande</li>
+<li markdown="1">Färger är svåra.</li>
+<li markdown="1">Det är otroligt lätt att en mix and match av olika färger (oavsett om det är komplement, komplement/split, eller triadisk) blir väldigt gräll. Analoga färger och monokromatiska har inte samma problem tror jag. Det man kan göra är att ha en "huvudfärg" som är någonstans i gråskalan och sen kan man ha de andra färgerna som kompletterar.</li>
+<li markdown="1">Jag lyckades tyvärr inte få till en estetiskt tilltalande färgmix :/</li>
+<li markdown="1">Jag var lite behjälpt av att jag redan innan hade valt ut fonter som jag tyckte passade ihop med mitt tidigare färgschema. Mitt nya färgschema var bara en vidareutveckling på det gamla.</li>
+<li markdown="1">Jag försökte lägga ett filter på min fav icon men jag fick inte filtret att fungera. Så jag gjorde the next best thing: jag gjorde den svartvit.</li>
+<li markdown="1">I framtiden så kommer jag skapa en `variables.scss` och hålla mig till ett fåtal färger som jag återanvänder. Nu kändes det som att jag lappade min CSS-kod med mina förändringar, vilket också betyder att det förmodligen är kvar artefakter som inte används längre. En del av detta löste jag genom att skapa `*-dark.scss` versioner av befintliga `*.scss-filer`</li>
+<li markdown="1">Jag valde ett "komplement färgschema" för att jag var trött på analog/monokromatisk efter att ha gjort min färgstudie. Jag tänkte att det skulle bli enkelt med komplement, för då behöver man bara ha 2 extra färger i beaktande</li>
+<li markdown="1">Min dark theme var bara en enkel förenkling av min light theme. De småskillnader jag hade var att jag tog en mörkare grön och till följd av detta en mörkare lila som komplementfärger. Istället för att använda vita färger så använde jag en "off-white" på #e0e0e0. Jag använde också `filter: brightness(.8) contrast(1.2)` på mina bilder för att de skulle få lägre ljusstyrka men högre kontrast.</li>
+<li>Färgerna jag valde var: <table style="border-spacing: 4px; border-collapse: separate">
+<tr>
+<td style="font-weight: bold;">Light</td>
+<td style="height: 50px; width: 50px; background-color: #C6D6CC;; color: #181115">#C6D6CC</td>
+<td style="height: 50px; width: 50px; background-color: #D6C6D0; color: #181115">#D6C6D0</td>
+</tr>
+<tr>
+<td style="font-weight: bold;">Dark</td>
+<td style="height: 50px; width: 50px; background-color: #111814; color: #e0e0e0">#111814</td>
+<td style="height: 50px; width: 50px; background-color: #181115; color: #e0e0e0">#181115</td>
+</tr>
+</table></li>
 </ul>
 </div>
 
