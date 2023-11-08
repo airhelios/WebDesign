@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: $max-width;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    column-gap: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.aside {
+    margin-top: 1.4rem;
+    flex-basis: 0;
+    flex-grow: 1;
+    order: 1;
+    background-color: $soft-white;
+    border: 1px dashed $font-color;
+    height: auto;
+}
+
+.article {
+    margin-top: 1.4rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    flex-basis: 0;
+    flex-grow: 2;
+    order: 2;
+    background-color: $soft-white;
+    border: 1px dashed $font-color;
+}
+
+.ul-aside {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.li-aside {
+    padding-top: 1rem;
+    border-top: 1px dotted $font-color;
+    vertical-align: middle;
+    padding-bottom: 0.25rem;
+}
+
+.li-aside:first-child {
+    padding-top: 1rem;
+    border: 0;
+}

@@ -129,9 +129,13 @@ a .site-title {
     padding-bottom: 0;
 }
 
+.title a {
+    text-decoration: none;
+}
+
 .title h1 {
     font-size: 1.25rem;
-    margin-left: 10rem;
+    margin-left: 0.5rem;
 }
 
 .main {

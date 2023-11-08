@@ -176,7 +176,7 @@
     "lint": "stylelint \"**/*.scss\"",
     "watch": "sass borealis/scss/style.scss:borealis/css/style.css borealis/scss/style-dark.scss:borealis/css/style-dark.css --no-source-map --watch",
     "watch-min": "sass borealis/scss/style.scss:borealis/css/style.min.css borealis/scss/style-dark.scss:borealis/css/style-dark.min.css --no-source-map --watch --style compressed",
-    "style": "npm run style-light && npm run style-dark",
+    "style": "npm run style-light && npm run style-dark && npm run style-focus-dark && npm run style-focus-light",
     "style-min": "npm run style-light-min && npm run style-dark-min",
     "style-dark": "sass borealis/scss/style-dark.scss borealis/css/style-dark.css --no-source-map",
     "style-dark-min": "sass borealis/scss/style-dark.scss borealis/css/style-dark.min.css --no-source-map --style compressed",
@@ -185,7 +185,7 @@
     "watch-focus": "sass focus/scss/style.scss:focus/css/style.css focus/scss/style-dark.scss:focus/css/style-dark.css --no-source-map --watch",
     "watch-focus-min": "sass focus/scss/style.scss:focus/css/style.min.css focus/scss/style-dark.scss:focus/css/style-dark.min.css --no-source-map --watch --style compressed",
     "style-focus-dark": "sass focus/scss/style-dark.scss focus/css/style-dark.css --no-source-map",
-    "style--focus-dark-min": "sass focus/scss/style-dark.scss focus/css/style-dark.min.css --no-source-map --style compressed",
+    "style-focus-dark-min": "sass focus/scss/style-dark.scss focus/css/style-dark.min.css --no-source-map --style compressed",
     "style-focus-light": "sass focus/scss/style.scss focus/css/style.css --no-source-map",
     "style-focus-light-min": "sass focus/scss/style.scss focus/css/style.min.css --no-source-map --style compressed"
   },

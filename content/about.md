@@ -28,7 +28,8 @@ Den här sidan är uppbyggd av
 ==========================  
 </div>
 <div class ="index center" markdown='1'>
-Kmom01{#kmom01}
+
+Kmom01{#kmom01 .about-h2}
 --------------- 
 Nu går vi från att endast använda  HTML, PHP (med tillhörande XAMPP), CSS samt dbwebb-verktygen till att expandera med fler verktyg. Frågan är gäller: more is more eller less is more? Måste vara besvärligt att hålla koll på alla verktyg.
 
@@ -44,7 +45,7 @@ Installationen av verktygen gick till slut bra. Jag borde ha varit mer vaksam p�
 
 <div class ="index center" markdown='1'>
 
-Kmom02{#kmom02}
+Kmom02{#kmom02 .about-h2}
 --------------- 
 Här har jag blivit tvungen att felsöka en del. Felsökning i sig är faktiskt ett riktigt bra sätt att lära sig (men smärtsamt). Jag kunde inte få min github-ikon att visas när vi gick över till Font Awesome. Jag grävde igenom min kod och skapade testfiler för att förstå varför. Till slut gav jag upp hoppet och frågade i Discord-servern. Det visade sig att koden skulle vara <code>&lt;i class="fab fa-github" aria-hidden="true"></code> och inte <code>&lt;i class="fa fa-github" aria-hidden="true"></code> som jag trodde. 
 
@@ -69,7 +70,7 @@ De SASS-funktionaliteter jag använde var:
 * testade operatorer (ex width: 10px + 10px;) men såg ingen nytta av det ... ännu
 
 Jag ser på [Sass-hemsida](https://sass-lang.com/documentation/) att det finns många funktionaliter (ex. funktioner, inbyggda moduler, debug) som jag inte har kollat på än.
-### Extrauppgifter(kmom02)
+### Extrauppgifter(kmom02){.about-h3}
 Jag gjorde båda extrauppgifterna. Jag laddade ner fonterna från Google, som jag hänvisar till i `borealis/scss/fonts.scss` samt `shared/fonts`.
 Jag använde lite Twig-kod + ett tillägg i min `_meta.md` för att både visa Font Awesome- och Unicode-ikoner i `footer.twig`:
 
@@ -94,7 +95,7 @@ Social:
 </div>
 
 <div class ="index center" markdown='1'>
-Kmom03{#kmom03}
+Kmom03{#kmom03 .about-h2}
 --------------- 
 <ul>
 <li>
@@ -109,7 +110,7 @@ Jag använde mig av <b>grid</b> på technology-sidan och av <b>flexbox</b> på d
 
 <li>Lärde mig också att det går att ställa in sass så att den kompilerar automatiskt så att jag inte behöver använda npm run style/style-borealis efter varje css-ändring.</li>
 
-<li>Jag har arbetat med grid och flex i webtec-kursen. Men jag lärde mig mer om dess funktionaliteter. . <a href="https://css-tricks.com/flex-grow-is-weird/">Artikeln</a> om flex-grow var intressant.</li>
+<li>Jag har arbetat med grid och flex i webtec-kursen. Men jag lärde mig mer om dess funktionaliteter. <a href="https://css-tricks.com/flex-grow-is-weird/">Artikeln</a> om flex-grow var intressant.</li>
 
 <li>Det är ganska svårt att få PicoCMS+markdown att fungera bra ihop med HTML. Man måste känna till en del pitfalls, <code>markdown="1"</code> är viktigt. Dessutom är det viktigt att ha i åtanke att det går att fallbacka på sedvanligt HTML. </li>
 
@@ -118,10 +119,24 @@ Jag använde mig av <b>grid</b> på technology-sidan och av <b>flexbox</b> på d
 <li>Jag påmindes igenom om att det är bäst att ha import av mobile-responsiveness-CSS-delen längst ner i sin stylesheet. Annars kommer den ju inte skriva om något.</li>
 </ul>
 
-### Extrauppgifter(kmom03)
+### Extrauppgifter(kmom03){.about-h3}
 <ul>
 <li>Jag såg till så att footern använde sig av flex.</li>
 <li>Jag satt ett tag och försökte få navbaren att använda sig av flex. Det blev inte lika fint vid en kollapsad menu så därför skippade jag det.</li>
+</ul>
+</div>
+
+<div class ="index center" markdown='1'>
+Kmom04{#kmom04 .about-h2}
+--------------- 
+<ul>
+<li>Färger är svåra.</li>
+<li>Det är otroligt lätt att en mix and match av olika färger (oavsett om det är komplement, komplement/split, eller triadisk) blir väldigt gräll. Analoga färger och monokromatiska har inte samma problem tror jag. Det man kan göra är att ha en "huvudfärg" som är någonstans i gråskalan och sen kan man ha de andra färgerna som kompletterar.</li>
+<li>Jag lyckades tyvärr inte få till en estetiskt tilltalande färgmix :/</li>
+<li>Jag var lite behjälpt av att jag redan innan hade valt ut fonter som jag tyckte passade ihop med mitt tidigare färgschema. Mitt nya färgschema var bara en vidareutveckling på det gamla.</li>
+<li>Jag försökte lägga ett filter på min fav icon men jag fick inte filtret att fungera. Så jag gjorde the next best thing: jag gjorde den svartvit.</li>
+<li>I framtiden så kommer jag skapa en `variables.scss` och hålla mig till ett fåtal färger som jag återanvänder. Nu kändes det som att jag lappade min CSS-kod med mina förändringar, vilket också betyder att det förmodligen är kvar artefakter som inte används längre. En del av detta löste jag genom att skapa `*-dark.scss` versioner av befintliga `*.scss-filer`</li>
+<li>Jag valde ett "komplement färgschema" för att jag var trött på analog/monokromatisk efter att ha gjort min färgstudie. Jag tänkte att det skulle bli enkelt med komplement, för då behöver man bara ha 2 extra färger i beaktande</li>
 </ul>
 </div>
 
@@ -130,9 +145,4 @@ Jag använde mig av <b>grid</b> på technology-sidan och av <b>flexbox</b> på d
 * sass --watch focus/scss/style.scss focus/css/style.min.css --no-source-map --style compressed
 * git tag -a v4.0.1 -m "Adding new color scheme"
 * git push origin --tags
-</div>
-
-<div class ="index center" markdown='1'>
-#### Att göra imorgon
-* Kolla font awesome-ikonerna. Varför skrivs deras färger över av *?
 </div>

@@ -6433,6 +6433,8 @@ template {
   display: none;
 }
 
+/*Triad color scheme*
+ #0b0bff  #0bfe0b  #fe0b0b https://pinetools.com/split-complementary-colors */
 /* vietnamese */
 @font-face {
   font-family: "Inconsolata";
@@ -6511,8 +6513,9 @@ template {
 /*Downloaded the font for extra credit*/
 .code, code {
   font-style: oblique;
-  background-color: #efecec;
+  background-color: #f0efef;
   text-wrap: wrap;
+  color: #000;
 }
 
 .technology-main {
@@ -6522,9 +6525,12 @@ template {
   display: grid;
   gap: 1em 1em;
   grid-template-columns: repeat(3, 1fr);
+  padding: 1.4rem;
+  margin-top: 1.4rem;
 }
 
 .technology-main h1 {
+  margin-top: 0;
   justify-self: center;
 }
 
@@ -6563,22 +6569,24 @@ template {
 }
 
 .aside {
+  margin-top: 1.4rem;
   flex-basis: 0;
   flex-grow: 1;
   order: 1;
   background-color: #fff;
-  border: 1px dashed rgba(170, 187, 170, 0.462745098);
+  border: 1px dashed #000;
   height: auto;
 }
 
 .article {
+  margin-top: 1.4rem;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
   flex-basis: 0;
   flex-grow: 2;
   order: 2;
   background-color: #fff;
-  border: 1px dashed rgba(170, 187, 170, 0.462745098);
+  border: 1px dashed #000;
 }
 
 .ul-aside {
@@ -6605,6 +6613,8 @@ template {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1.4rem;
+  padding: 1.4rem;
   background-color: #fff;
 }
 
@@ -6613,9 +6623,72 @@ template {
   left: 1.25rem;
 }
 
-.analys-row {
+.analysis-container {
+  margin-bottom: 2rem;
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  border: 1px dashed #000;
+}
+
+.analysis-h1 {
+  font-weight: bolder;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  background-color: #D6C6D0;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.analysis-h3 {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.text {
+  font-family: "proxima-nova", "Helvetica", arial, sans-serif;
+}
+
+.analysis-row {
   display: flex;
-  flex-basis: auto;
+  flex-direction: column;
+}
+
+.analysis-img {
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+.img-2 {
+  max-width: 49%;
+}
+
+.img-3 {
+  max-width: 32%;
+}
+
+.about-h2 {
+  font-weight: bolder;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  background-color: #D6C6D0;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.about-h3 {
+  font-weight: bolder;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  background-color: #D6C6D0;
+  padding: 0.5rem;
+  text-align: center;
 }
 
 * {
@@ -6623,14 +6696,31 @@ template {
   border: 0 none;
   margin: 0;
   padding: 0;
+  color: #000;
+  font-family: "Inconsolata", monospace;
+}
+
+.nav-ul {
+  background-color: #D6C6D0;
+  border: 2px dotted #000;
+  border-radius: 2px;
 }
 
 html, body {
   height: 100%;
+  line-height: 1.4rem;
+}
+
+a, a:visited {
+  color: #000;
+}
+
+a:hover {
+  font-weight: bolder;
 }
 
 body {
-  background-color: rgba(170, 187, 170, 0.462745098);
+  background-color: #C6D6CC;
   overflow-y: scroll; /* Always display scrollbar, avoid hopping pages */
 }
 
@@ -6642,10 +6732,6 @@ p {
   line-height: 1.4rem;
 }
 
-.logo {
-  max-width: 200px;
-}
-
 .header {
   max-width: 1200px;
   margin-right: auto;
@@ -6653,7 +6739,9 @@ p {
 }
 
 .social {
-  background-color: rgba(170, 187, 170, 0.462745098);
+  color: #000;
+  border: 2px dotted #000;
+  background-color: #D6C6D0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -6668,20 +6756,24 @@ p {
 
 .footer {
   background-color: #fff;
-  border: 1px dashed rgba(170, 187, 170, 0.462745098);
-}
-
-* {
-  color: #000;
-  font-family: "Inconsolata", monospace;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+
+a .site-title {
+  text-decoration: none;
 }
 
 .index {
   max-width: 1200px;
+  background-color: #fff;
+  padding: 1.4rem;
+  border: 1px dotted #000;
+  border-radius: 2px;
+  margin-top: 1.4rem;
 }
 
 .center {
@@ -6699,6 +6791,7 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
   width: fit-content;
   margin-right: auto;
+  max-width: 200px;
 }
 
 .small {
@@ -6711,9 +6804,13 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0;
 }
 
+.title a {
+  text-decoration: none;
+}
+
 .title h1 {
   font-size: 1.25rem;
-  margin-left: 10rem;
+  margin-left: 0.5rem;
 }
 
 .main {
@@ -6722,12 +6819,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0.5rem;
 }
 
-.index {
-  margin-top: 1.5rem;
-}
-
 .site-header {
   width: 100%;
+  background-color: #C6D6CC;
 }
 
 .text-center {

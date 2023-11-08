@@ -9,7 +9,7 @@ Kmom04 - färgrapport
 
 En färganalys görs på tre webbsidor. Analysen görs för att belysa intrycket en webbsida ger baserat på sin färgkombination.
 
-Urval
+Urval{.analysis-h1}
 -----------------------
 De tre webbplatser som undersöks i den här uppgiften är:
 
@@ -19,7 +19,7 @@ De tre webbplatser som undersöks i den här uppgiften är:
 
 * [Cristiano Ronaldos](https://www.cristianoronaldo.com/#cr7) - Topp två fotbollsspelare i världen. Hur vill han profilera sig själv, i alla fall enligt sin webbsida?
 
-Metod
+Metod{.analysis-h1}
 -----------------------
 Färgväljar-verktyget i Paint har valts för att få färgkoden för huvudfärgerna. I vissa fall så har färgerna letats upp i CSS-koden direkt.
 
@@ -28,10 +28,10 @@ För att ta reda på fonterna på sidorna så har de enskilda elementen markerat
 En visualisering av färgschemat har gjorts via [Designs.ai color wheel](https://designs.ai/colors/color-wheel)
 
 
-Resultat
+Resultat{.analysis-h1}
 -----------------------
-<div class="analysis-container" markdown="1">
 <h3 class="analysis-h3">Cristiano Ronaldo</h3>
+<div class="analysis-container" markdown="1">
 Klicka på bilderna för större format.
 <div class="analysis-row" markdown="1">
 <a href="%assets_url%/img/colors/cr.png" class="analysis-img">![Snapshot from Cristiano Ronaldo's web page](%assets_url%/img/colors/cr.png){.img-2}</a>
@@ -66,8 +66,10 @@ Fonterna han har använt sig av är:
 Jag får intrycket av att Cristiano Ronaldo vill verka cool, elegant och "världslig" i sina bilder, dvs. en snubbe som är badass, always on the go, välklädd och som inte tänker för mycket. Om det inte vore för hans bilder så faktiskt lyckats åstadkomma detta. Färgen orange (som syns emellanåt på sidan) hjälper till med att ge ett energiskt intryck[1].
 
 </div>
-<div class="analysis-container" markdown="1">
+
 <h3 class="analysis-h3">David McRaney</h3>
+<div class="analysis-container" markdown="1">
+
 Klicka på bilderna för större format.
 <div class="analysis-row" markdown="1">
 <a href="%assets_url%/img/colors/mcraney.png" class="analysis-img">![Snapshot from David McRaney's web page](%assets_url%/img/colors/mcraney.png){.img-2}</a>
@@ -102,8 +104,9 @@ Fonterna han har använt sig av är:
 David McRaneys sida ger ett intryck av en icke-tråkig och minimalistisk sida. Jag tror att Davids grej är att han vill verka vara edgy och smart (kolla på hans bild i hans bio). Lyckas sidans typsnitt och färgschema att få honom att verka smart? Jag vet inte! Jag tror inte hans färg- och typsnittsval påverkar min åsikt om honom. De är neutrala. Även om färgen blå kännetecknar "intelligens"[2].
 </div>
 
-<div class="analysis-container" markdown="1">
 <h3 class="analysis-h3">Selena Gomez</h3>
+<div class="analysis-container" markdown="1">
+
 Klicka på bilderna för större format.
 <div class="analysis-row" markdown="1">
 <a href="%assets_url%/img/colors/selena1.png" class="analysis-img">![First snapshot from Selena Gomez's web page](%assets_url%/img/colors/selena1.png){.img-3}</a>
@@ -139,7 +142,8 @@ Fonterna hon har använt sig av är:
 </table>
 Selena har ett monokromatiskt "maroon" färgschema på sin sida. Jag får intrycket av att hon vill att man ser henne som modern artist. Det enkla färgschemat räddas flera gånger av att hennes bilder är färggranna och ligger på en annan del av färghjulet. Jag tycker hon lyckas med det. Även fonten är passande.
 </div>
-Analys
+
+Analys{.analysis-h1}
 -----------------------
 
 Alla tre personsidorna använde sig av ett monokromatiskt färgschema. Det går att argumentera för att David McRaneys sida använder sig av ett analogt färgschema. Men skillnaden var så liten här att det är enklare att anta att det var monokromatiskt. Jag antar att monokromatiskt färgschema är ett av de lättare färgschemana. Ju fler färger man introducerar desto enklare är det att få färgerna att skära sig eller att ge ett felaktigt intryck. 
@@ -160,12 +164,12 @@ Några få slutsatser jag hade från denna studie:
 <br><br>
 Om jag gjorde om den här uppgiften så hade jag avsiktligt valt ut en sida som inte har ett monokromatiskt färgschema. Dock kan man konstatera, speciellt med avseende på Selenas sida, att man kommer långt med monokrom och välvalda bilder.
 
-Referenser
+Referenser{.analysis-h1}
 -----------------------
 [1] Beaird, J., & Walker, A. (2020). The Principles of Beautiful Web Design, 4e. SitePoint Pty Ltd. Orange s. 102.
 
 [2] Beaird, J., & Walker, A. (2020). The Principles of Beautiful Web Design, 4e. SitePoint Pty Ltd. Blue s. 107.
 
-Övrigt
+Övrigt{.analysis-h1}
 -----------------------
 Den här rapporten sammanställdes av Owais Sulehria

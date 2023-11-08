@@ -6605,6 +6605,7 @@ template {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding: 1.4rem;
   background-color: #fff;
 }
 
@@ -6613,9 +6614,39 @@ template {
   left: 1.25rem;
 }
 
-.analys-row {
+.analysis-container {
+  margin-bottom: 2rem;
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  border: 1px dashed #000;
+}
+
+.analysis-h3 {
+  margin-top: 1rem;
+}
+
+.text {
+  font-family: "proxima-nova", "Helvetica", arial, sans-serif;
+}
+
+.analysis-row {
   display: flex;
-  flex-basis: auto;
+  flex-direction: column;
+}
+
+.analysis-img {
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+.img-2 {
+  max-width: 49%;
+}
+
+.img-3 {
+  max-width: 32%;
 }
 
 * {

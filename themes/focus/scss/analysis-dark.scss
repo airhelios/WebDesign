@@ -1,10 +1,12 @@
+@import "variables-dark";
+
 .analysis-main{
     max-width: $max-width;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.4rem;
     padding: 1.4rem;
-    background-color: $reset-color;
+    background-color: $soft-white;
 }
 
 .analysis {
@@ -23,6 +25,7 @@
 
 .analysis-h1 {
     font-weight: bolder;
+    color: $soft-white;
     font-size: 2rem;
     margin-bottom: 0.5rem;
     margin-top: 1rem;
@@ -50,12 +53,15 @@
 .analysis-img {
     flex: 1 1 auto;
     overflow-y: auto;
+    filter: brightness(.8) contrast(1.2);
 }
 
 .img-2 {
     max-width:49%;
+    filter: brightness(.8) contrast(1.2);
 }
 
 .img-3 {
     max-width:32%;
+    filter: brightness(.8) contrast(1.2);
 }

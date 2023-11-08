@@ -4,12 +4,12 @@ Description: Documentation that came with Pico.
 # hidden: true
 ---
 <div class ="index center" markdown='1'>
-## Welcome to Pico
+## Welcome to Pico{.analysis-h1}
 
 Congratulations, you have successfully installed [Pico][] %version%.
 %meta.description% <!-- replaced by the above Description header -->
 
-## Creating Content
+## Creating Content{.analysis-h1}
 
 Pico is a flat file CMS. This means there is no administration backend or
 database to deal with. You simply create `.md` files in the `content` folder
@@ -75,7 +75,7 @@ files, use Pico's `assets` folder. You can then access them in your Markdown
 using the <code>&#37;assets_url&#37;</code> placeholder, for example:
 <code>!\[Image Title\](&#37;assets_url&#37;/image.png)</code>
 
-### Text File Markup
+### Text File Markup{.analysis-h1}
 
 Text files are marked up using [Markdown][] and [Markdown Extra][MarkdownExtra].
 They can also contain regular HTML.
@@ -124,7 +124,7 @@ There are also certain variables that you can use in your text files:
 * <code>&#37;config.&#42;&#37;</code> - Access any scalar config variable,
   e.g. <code>&#37;config.theme&#37;</code> is replaced with `default`
 
-### Blogging
+### Blogging{.analysis-h1}
 
 Pico is not blogging software - but makes it very easy for you to use it as a
 blog. You can find many plugins out there implementing typical blogging
@@ -154,7 +154,7 @@ something like the following:
     {% endfor %}
    ```
 
-## Customization
+## Customization{.analysis-h1}
 
 Pico is highly customizable in two different ways: On the one hand you can
 change Pico's appearance by using themes, on the other hand you can add new
@@ -166,7 +166,7 @@ techie talk - it's very easy to use one of the great themes or plugins others
 developed and released to the public. Please refer to the next sections for
 details.
 
-### Themes
+### Themes{.analysis-h1}
 
 You can create themes for your Pico installation in the `themes` folder. Pico
 uses [Twig][] for template rendering. You can select your theme by setting the
@@ -238,7 +238,7 @@ are Pico's `content` variable (e.g. `{{ content }}`), Pico's `content` filter
 (e.g. `{{ "sub/page"|content }}`), and Pico's `markdown` filter, they all are
 marked as HTML safe.
 
-#### Dealing with pages
+#### Dealing with pages{.analysis-h1}
 
 There are several ways to access Pico's pages list. You can access the current
 page's data using the `current_page` variable, or use the `prev_page` and/or
@@ -302,7 +302,7 @@ it will kinda work and you might even see it being used in old themes, but be
 warned: It slows down Pico. Always use Pico's `pages()` function when iterating
 Pico's page list (e.g. `{% for page in pages() %}…{% endfor %}`).
 
-#### Twig filters and functions
+#### Twig filters and functions{.analysis-h1}
 
 Additional to [Twig][]'s extensive list of filters, functions and tags, Pico
 also provides some useful additional filters and functions to make theming
@@ -343,9 +343,9 @@ even easier.
   Twig! Simply head over to our [introductory page for accessing HTTP
   parameters][FeaturesHttpParams] for details.
 
-### Plugins
+### Plugins{.analysis-h1}
 
-#### Plugins for users
+#### Plugins for users{.analysis-h1}
 
 Officially tested plugins can be found at http://picocms.org/plugins/, but
 there are many awesome third-party plugins out there! A good start point for
@@ -369,7 +369,7 @@ disabled through your `config/config.yml`. If you want to e.g. disable the
 `PicoDeprecated.enabled: false`. To force the plugin to be enabled, replace
 `false` by `true`.
 
-## Config
+## Config{.analysis-h1}
 
 Configuring Pico really is stupidly simple: Just create a `config/config.yml`
 to override the default Pico settings (and add your own custom settings). Take
@@ -389,7 +389,7 @@ overwritten by a succeeding file. For example, if you set `site_title: Pico` in
 `config/a.yml` and `site_title: My awesome site!` in `config/b.yml`, your site
 title will be "Pico".
 
-## Documentation
+## Documentation{.analysis-h1}
 
 For more help have a look at the Pico documentation at http://picocms.org/docs.
 
