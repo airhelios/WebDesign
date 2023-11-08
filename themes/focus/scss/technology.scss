@@ -5,14 +5,17 @@
     display: grid;
     gap: 1em 1em;
     grid-template-columns: repeat(3, 1fr);
+    padding: 1.4rem;
+    margin-top: 1.4rem;
 }
 
 .technology-main h1 {
+    margin-top: 0;
     justify-self: center;
 }
 
 .box {
-    border: 1px dotted $border-color;
+    border: 1px dotted $font-color;
     border-radius: 5px;
     padding: 0.25rem;
     background-color: $reset-color;

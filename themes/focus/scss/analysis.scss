@@ -4,6 +4,7 @@
     max-width: $max-width;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1.4rem;
     padding: 1.4rem;
     background-color: $reset-color;
 }
@@ -22,8 +23,21 @@
     border: 1px dashed $font-color;
 }
 
+.analysis-h1 {
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    background-color: $comp2;
+    padding: 0.5rem;
+    text-align: center;
+}
+
 .analysis-h3 {
-    margin-top:1rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.35rem;
 }
 
 .text {
