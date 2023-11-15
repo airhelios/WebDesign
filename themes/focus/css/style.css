@@ -6675,6 +6675,10 @@ template {
   overflow-y: auto;
 }
 
+.img-1 {
+  max-width: 100%;
+}
+
 .img-2 {
   max-width: 49%;
 }
