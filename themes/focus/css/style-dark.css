@@ -6622,6 +6622,11 @@ template {
   left: 1.25rem;
 }
 
+.ol-analysis {
+  position: relative;
+  left: 1.5rem;
+}
+
 .analysis-container {
   margin-bottom: 2rem;
   margin-right: 0.25rem;
@@ -6646,6 +6651,13 @@ template {
   margin-top: 1rem;
   text-align: center;
   font-size: 1.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.analysis-h4 {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.25rem;
   margin-bottom: 0.35rem;
 }
 
@@ -6845,6 +6857,24 @@ a .site-title:hover {
 
 .text-center {
   text-align: center;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 767px) {

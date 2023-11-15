@@ -22,15 +22,6 @@ Den här sidan är uppbyggd av
 * [Unicode-ikoner](https://home.unicode.org/) &mdash; se footer för de ikoner som har använts.
 
 </div>
-____
-![Leaf](image/leaf_256x256.png?h=250&w=50&stretch)
-![Leaf](image/leaf_256x256.png?h=250&w=200&crop-to-fit)
-![Leaf](image/tree2.jpg?width=50%&q=1)
-
-![Leaf](image/tree2.jpg?w=300&save-as=jpg&blur)
-![Leaf](image/tree2.jpg?width=50%&save-as=png?v)
-![Leaf](image/tree2.jpg?width=50%&save-as=gif?v)
-
 <div class ="index center" markdown='1'>
 Åtgärder och lärdomar{.text-center}
 ==========================  
@@ -162,8 +153,18 @@ Kmom04{#kmom04 .about-h2}
 </div>
 
 <div class ="index center" markdown='1'>
+Kmom05{#kmom05 .about-h2}
+--------------- 
+<ul>
+<li markdown="1">Laddningstids-analyser är ett stort område, det märks på alla "metrics" som går att ta ut. Det tar nog en lång tid att bli en mästare på att optimera sidor. Kanske finns det pengar i att optimera diverse laddningstider på personsidor?</li>
+<li markdown="1">PageSpeed Insights kanske ger ett dåligt värde i prestanda eller några av laddningstiderna. Det märks ändå inte alltid för användaren.</li>
+</ul>
+</div>
+
+<div class ="index center" markdown='1'>
 #### Good to know stuff
 * sass --watch focus/scss/style.scss focus/css/style.min.css --no-source-map --style compressed
 * git tag -a v4.0.1 -m "Adding new color scheme"
 * git push origin --tags
 </div>
+

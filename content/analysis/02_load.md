@@ -3,7 +3,7 @@ Title: 02_load
 Description: This is the load time report
 Template: analysis
 ---
-Kmom04 - färgrapport
+Kmom05 - Load time-rapport
 =======================
 
 
@@ -11,11 +11,12 @@ Mätvärden på bland annat prestanda och olika laddningstider för tre personsi
 
 Urval{.analysis-h1}
 -----------------------
-Jag fortsätter med samma sidor som i [Kmom04](./01_colors). Några av anledningarna till varför dessa personsidor valdes ut var att jag får en känsla av att de tre personerna som presenteras på sidorna är 
-1. Väldigt måna om sin image (såklart, de är ju kändisar).
-2. Inte så tekniskt kunniga.
-3. Känns lite "mänskligare" att recensera en personsida än ett företag eller produkt.
-
+Jag fortsätter med samma sidor som i [Kmom04](./01_colors). Några av anledningarna till varför dessa personsidor valdes ut var att jag får en känsla av att de tre personerna som presenteras på sidorna är:
+<ol class="ol-analysis">
+<li>Väldigt måna om sin image (såklart, de är ju kändisar).</li>
+<li>Inte så tekniskt kunniga.</li>
+<li>Känns lite "mänskligare" att recensera en personsida än ett företag eller produkt.</li>
+</ol>
 
 De tre sidorna är som sagt:
 
@@ -26,9 +27,10 @@ De tre sidorna är som sagt:
 Metod{.analysis-h1}
 -----------------------
 
-I denna analys så har två verktyg använts: 
-1) [Google's PageSpeed Insights](https://pagespeed.web.dev/): Den kontrollerar en sida baserat på en del mätvärden såsom hur lång tid det tar innan första DOM-objektet ritas ut (FCP), hur lång tid det tar innan det störta objektet i above the fold ritas ut (LCP) med mera.
-2) `Developer Tools > Network`. Här har transfer-mängden, resource-mängden, finish-time och load-time mätts.
+<ol class="ol-analysis">
+<li>[Google's PageSpeed Insights](https://pagespeed.web.dev/): Den kontrollerar en sida baserat på en del mätvärden såsom hur lång tid det tar innan första DOM-objektet ritas ut (FCP), hur lång tid det tar innan det störta objektet i above the fold ritas ut (LCP) med mera.</li>
+<li>`Developer Tools > Network`. Här har transfer-mängden, resource-mängden, finish-time och load-time mätts.</li>
+</ol>
 
 För varje personsida så har tre underliggande sidor valts ut för analyserna. Då `Network`-analyserna har gjorts så består varje mätvärde av genomsnittet av tre värden. Dessa mätvärden tas genom att ladda om sidan (rensa cache) med `CTRL + F5`. Nedan ges en förklaring av mätvärdena:
 
@@ -94,28 +96,49 @@ En extremt långsam sida (både mobile och desktop). Förslag: kolla igenom all 
 Analys{.analysis-h1}
 -----------------------
 
-Alla tre personsidorna använde sig av ett monokromatiskt färgschema. Det går att argumentera för att David McRaneys sida använder sig av ett analogt färgschema. Men skillnaden var så liten här att det är enklare att anta att det var monokromatiskt. Jag antar att monokromatiskt färgschema är ett av de lättare färgschemana. Ju fler färger man introducerar desto enklare är det att få färgerna att skära sig eller att ge ett felaktigt intryck. 
+Av de tre sidorna så var David McRaney's sida den som hade bäst statistik. Den var den enda som var godkänd på PageSpeed Insights när det gäller Core Web Vitals på alla tre undersidor både för mobil och desktop. 
+
+Jag kollade bara sidorna överskådligt på mobilen men märkte att alla tre sidorna hade eftersatt den mobila prestandan. Laddningstiderna var längre men sidorna blev även mindre utsmyckade. Det var som att desktop-varianten var huvudsidan och mobila sidan var mest en eftertanke. 
+
+Detta märktes i prestanda-scoren men även i laddningstider såsom Largest Contentful Paint, First Contentful Paint, Interaction to Next Paint. 
+
+De vanligaste förbättringsåtgärderna på dessa sidor var (från PageSpeed):
+<ul class="ol-analysis">
+<li>Reducera JavaScript alt. CSS som inte används. Om JS/CSS inte uppfyller ett syfte så kommer det bara bidra till att laddningstiden ökar utan att göra någon skillnad på sidan.</li>
+<li>Ta bort resurser som blockerar renderingen. När en sida håller på att laddas så måste den pausa och ladda ner och hantera länkade CSS-/JavaScript-filer. Två sätt att spara detta är genom att antingen låta CSS/JavaScript hanteras efter att sidan har laddats(asynchronous) eller lägga in CSS/JavaScript "inline" istället [3]. </li>
+<li>Använd bilder med rätt storlek. Genom att använda bilder med mindre storlek så kan man spara laddningstid.</li>
+<li>Skicka bilder i modernare bildformat. PageSpeed Insights föreslår att man ska använda bilder i formaten WebP och AVIF istället för PNG eller JPEG.</li>
+</ul>
+
+Av ovanstående åtgärder så skulle jag säga att de svåraste och som tar längst tid (i efterhand) borde vara "Ta bort resurser som blockerar renderingen" samt "Reducera CSS/JavaScript som inte används". För Selena Gomez sida som består av flertalet undersidor med olika format så kan det vara ett stort projekt att gå igenom sida för sida och eliminera onödig kod. 
+
+Den åtgärd som är enklast men kanske smärtsammast för ytliga kändisar är att minska ner på bildernas storlek.
+
+Jag får undersöka senare vad dessa "modernare" bildformat innebär.
+
+<h4 class="analysis-h4">Gräns för laddningstid</h4>
+
+Jag skulle bedöma att en sida som tar längre tid än <b>2-3</b> sekunder att ladda fullständigt är långsam för mig. Jag har arbetat i en del webbaserade verktyg som tar otroligt lång tid på sig att ladda nya sidor och det är en stor frustration i det. Tar det längre tid än ett par sekunder då har jag tappat den mentala tråden och vill söka mig annanstans. Jag tänker också att ifall jag måste göra något på hemsidan så kommer varje klick ta >3 sekunder. Av den anledningen så föredrar jag även textbaserade minimalistiska sidor där allt som man vill hitta går att hitta med en snabb skanning. 
+
+David McRaney's sida klarar min tidsgräns medan CR och Selena Gomez klarar inte den alltid (nu tänker jag på "load"-värdet). Trots detta så känner jag inte en alltför stor frustration när jag är inne på SG/CR:s sidor. Jag tror det beror på att det går att interagera med sidorna och det finns ändå en del meningsfull info innan de är fulladdade. Detta märks på First Contentful Paint/Interaction to Next Paint-statistiken. Dessa är höga på CR/SG men vissa av dem ligger runt mina 2-3 sekunder som jag ansåg vara maxgränsen för färdigladdad sida. 
 
 
-Selena Gomez hade CSS-mässigt ett monokromatiskt färgschema men många gånger så var bilderna på hennes sida i en helt annan färg exempelvis:
-<a href="%assets_url%/img/colors/selena-page.png" class="analysis-img">![A picture on Selena's page](%assets_url%/img/colors/selena-page.png){.img-3}</a>
+<h4 class="analysis-h4">Rangordning av sidorna</h4>
 
-Alla sidorna hade en tydlig färgprofil. Det var däremot svårt att gräva fram vilka fonter/färgprofiler de hade utifrån källkoden/css/developer tools. Jag laddade sen ner chrome-extension:en Fontanello som hjälpte mig bekräfta att jag hade prickat in rätt fonter. Jag tror att speciellt Ronaldos och Selenas hemsidor har byggts i olika etapper. Det finns nog en del gammal kod som gör relevant kod oklar.
-
-Av de tre sidorna så var Selenas den mest behagliga, mest opretentiösa och hade en bäst uttalad identitet, David McRaneys sida var enkel men passade ändå innehållet. Ronaldos sida var nästan en karikatyr, även om färgschemat inte var helt fel. 
-
-Några få slutsatser jag hade från denna studie:
-* Färgschemat i CSS:en kan kompletteras med färger i bilder för att öka dimensionerna i de valda färgerna.
-* Färgschemat och typsnitt måste matcha innehållet så att hela sidan får samma identitet. Något som Ronaldos sida misslyckas med.
-* Ett monokromatiskt färgschema behöver inte betyda tråkig.
-* Ronaldos sida var redan i dark mode från början (får jag intrycket av) bilderna hade en lägre kontrast och det var mörka färger hela vägen igenom. Det kanske är enklare att börja med dark mode och sen göra ett ljust tema.
-<br><br>
-Om jag gjorde om den här uppgiften så hade jag avsiktligt valt ut en sida som inte har ett monokromatiskt färgschema. Dock kan man konstatera, speciellt med avseende på Selenas sida, att man kommer långt med monokrom och välvalda bilder.
+Jag rangordnar sidorna i laddningstid enligt:
+<ol class="ol-analysis">
+<li>David McRaney - denna sida var överlag snabbast på både mobil och desktop. Det var också den enda sidan som var godkänd på sina tre undersidor i Core Web Vitals. Jag hade dock undvikit press-sidan med alla Youtube-videos, den tar lång tid.</li>
+<li>CR:s sida var dålig enligt statistiken. PageSpeed/Core Web Vitals ansåg den bara vara godkänd på en av de tre undersidorna och det var endast på desktop-varianten. Cristiano hade för många och för stora bilder!</li>
+<li>Selena Gomez var ännu sämre än CR. Även om den var bäst när det gäller färgval så var sidan stor och brötig. Page Speed med sina Core Web Vitals ansåg inte några av de tre undersidorna vara godkända. Även här var bilderna ett stort problem men även resurser som blockerar renderingen var ett av de större problemen. Jag upplevde även att denna sida var långsammast.</li>
+</ol>
 
 Referenser{.analysis-h1}
 -----------------------
-[1] https://stackoverflow.com/questions/56043151/what-is-the-difference-between-transferred-and-resources-in-chrome-devtools
-[2] https://stackoverflow.com/questions/30266960/website-response-time-difference-between-load-and-finish
+[1] Stack Overflow-tråd: What is the difference between "transferred" and "resources" in Chrome DevTools Network tab?
+[Länk](https://stackoverflow.com/questions/56043151/what-is-the-difference-between-transferred-and-resources-in-chrome-devtools) (hämtad 2023-11-15).
+[2] Stack Overflow-tråd: Website response time: Difference between 'Load' and 'Finish'. [Länk](https://stackoverflow.com/questions/30266960/website-response-time-difference-between-load-and-finish) (hämtad 2023-11-15).
+
+[3] Google: Remove Render-Blocking JavaScript. [Länk](https://developers.google.com/speed/docs/insights/BlockingJS) (hämtad 2023-11-15).
 
 
 Övrigt{.analysis-h1}
