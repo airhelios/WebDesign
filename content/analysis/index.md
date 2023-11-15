@@ -15,7 +15,7 @@ Technologies{.span-3}
 <div class="box span-1">
 
 <a href="./analysis/02_load"><h2 class="text-center">Kmom05-load time</h2></a>
-<p class="tech">02_load.</p>
+<p class="tech">Load time analyseras på de 3 personsidorna.</p>
 </div>
 
 <div class="box span-1">

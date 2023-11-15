@@ -22,6 +22,14 @@ Den här sidan är uppbyggd av
 * [Unicode-ikoner](https://home.unicode.org/) &mdash; se footer för de ikoner som har använts.
 
 </div>
+____
+![Leaf](image/leaf_256x256.png?h=250&w=50&stretch)
+![Leaf](image/leaf_256x256.png?h=250&w=200&crop-to-fit)
+![Leaf](image/tree2.jpg?width=50%&q=1)
+
+![Leaf](image/tree2.jpg?w=300&save-as=jpg&blur)
+![Leaf](image/tree2.jpg?width=50%&save-as=png?v)
+![Leaf](image/tree2.jpg?width=50%&save-as=gif?v)
 
 <div class ="index center" markdown='1'>
 Åtgärder och lärdomar{.text-center}
