@@ -6914,7 +6914,7 @@ a .site-title:hover {
   height: 100%;
 }
 
-.fa.fa-bars {
+.fa.fa-bars, .fa.fa-times {
   color: #e0e0e0;
 }
 

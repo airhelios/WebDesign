@@ -173,6 +173,7 @@ Kmom05{#kmom05 .about-h2}
 <div class ="index center" markdown='1'>
 #### Good to know stuff
 * sass --watch focus/scss/style.scss focus/css/style.min.css --no-source-map --style compressed
+* npm run style-focus-dark && npm run style-focus-dark-min && npm run style-focus-light && npm run style-focus-light-min
 * git tag -a v4.0.1 -m "Adding new color scheme"
 * git push origin --tags
 </div>
