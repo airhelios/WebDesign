@@ -6914,6 +6914,10 @@ a .site-title:hover {
   height: 100%;
 }
 
+.fa.fa-bars {
+  color: #e0e0e0;
+}
+
 @media (max-width: 767px) {
   .span-1 {
     grid-column: span 3;
