@@ -6708,6 +6708,43 @@ template {
   color: #e0e0e0;
 }
 
+.gallery-main {
+  max-width: 1200px;
+  background-color: #e0e0e0;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  gap: 1em 1em;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1.4rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.gallery-main h1 {
+  margin-top: 0;
+  justify-self: center;
+}
+
+.gallery-box {
+  padding: 0.25rem;
+  background-color: #e0e0e0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-paragraph {
+  border-radius: 2px;
+}
+
+.gallery-img {
+  max-width: 100%;
+}
+
+.gallery-h1 {
+  background-color: #e0e0e0;
+}
+
 * {
   box-sizing: border-box;
   border: 0 none;
@@ -6901,5 +6938,8 @@ a .site-title:hover {
   }
   .wrapper {
     width: 100%;
+  }
+  .gallery-main {
+    padding: 0.25rem;
   }
 }

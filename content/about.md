@@ -158,6 +158,15 @@ Kmom05{#kmom05 .about-h2}
 <ul>
 <li markdown="1">Laddningstids-analyser är ett stort område, det märks på alla "metrics" som går att ta ut. Det tar nog en lång tid att bli en mästare på att optimera sidor. Kanske finns det pengar i att optimera diverse laddningstider på personsidor?</li>
 <li markdown="1">PageSpeed Insights kanske ger ett dåligt värde i prestanda eller några av laddningstiderna. Det märks ändå inte alltid för användaren.</li>
+<li markdown="1">PicoCMS eller min browser i sig lägger till en `source`-end tag i min html. Det gör så att w3-validatorn blir missnöjd.</li>
+<li markdown="1">Picture/srcset för "art direction". Vi kan styra vilka bildkvalitéer som visas med vilka enheter/pixeldensiteter.</li>
+<li markdown="1">Vi har lärt oss hur man gör en responsive iframe via en container + CSS.</li>
+<li markdown="1">Ett nytt problem: numera får jag försöka komma ihåg att ändra mitt Dark-tema också när jag skapar en ny scss-/css-fil.</li>
+<li markdown="1">Markdown till html är inte helt smärtfritt. Det slängs in random taggar ex:p/source på icke-intuitiva ställen.</li>
+<li markdown="1">Cimage funkade bra. Testade aspect ratio, crop, fit to content, save as jpeg. Testade aldrig filter. En sak som fick mig att fastna var image-directory vs analysrapportens directory. Bilderna laddades inte med "/image" ... Var tvungen att hänvisa till "../image".</li>
+<li markdown="1">Stal grid från technologies. Funkade bra. Var dock tvungen att ändra stylingen så att borders/bakgrund passade med bilder.</li>
+<li markdown="1">Iframes ger ett dåligt intryck. De passar nästan aldrig in naturligt på en vanlig hemsida.</li>
+<li markdown="1">Kommenterad kod = tar bandbredd (det är kanske inte så när man kör mini?).</li>
 </ul>
 </div>
 
