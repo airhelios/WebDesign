@@ -17,6 +17,12 @@
     background-color: $soft-white;
     border: 1px dashed $font-color;
     height: auto;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0);
+}
+
+.aside:hover {
+    animation: shake $animation-time;
+    animation-iteration-count: 1;
 }
 
 .article {
@@ -28,6 +34,27 @@
     order: 2;
     background-color: $soft-white;
     border: 1px dashed $font-color;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0);
+}
+
+.article:hover{
+    animation: shake $animation-time;
+
+    animation-iteration-count: 1;
+}
+    
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(-0.25deg); }
+    20% { transform: rotate(0.25deg); }
+    30% { transform: rotate(0deg); }
+    40% { transform: rotate(0.25deg); }
+    50% { transform: rotate(-0.25deg); }
+    60% { transform: rotate(0deg); }
+    70% { transform: rotate(-0.25deg); }
+    80% { transform: rotate(0.25deg); }
+    90% { transform: rotate(0deg); }
+    100% { transform: rotate(-0.25deg); }
 }
 
 .ul-aside {

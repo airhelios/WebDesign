@@ -31,6 +31,27 @@ $google-font-path: '../../shared/fonts';
     border-radius: 2px;
 }
 
+.nav-ul:hover{
+    animation: shake $animation-time;
+    animation-iteration-count: 1;
+}
+
+@keyframes shake {
+    0% { transform:rotate(0deg); }
+    10% { transform: trotate(-0.25deg); }
+    20% { transform: rotate(0.25deg); }
+    30% { transform:rotate(0deg); }
+    40% { transform: rotate(0.25deg); }
+    50% { transform: rotate(-0.25deg); }
+    60% { transform: rotate(0deg); }
+    70% { transform:rotate(-0.25deg); }
+    80% { transform: trotate(0.25deg); }
+    90% { transform:rotate(0deg); }
+    100% { transform: rotate(-0.25deg); }
+}
+
+
+
 html, body {
     height: 100%;
     line-height: 1.4rem;
@@ -63,8 +84,8 @@ body:after {
     left: 0;
     bottom: 0;
     right: 0;
-    position: absolute;
-    z-index: -1;   
+    position: fixed;
+    z-index: -1; 
 }
 
 .hidden {
@@ -95,6 +116,12 @@ p {
     flex-direction: columns;
     justify-content: center;
     gap: 2rem;
+    box-shadow: 0px -1px 3px 0px rgba(0, 0, 0);
+}
+
+.social:hover{
+    animation: shake $animation-time;
+    animation-iteration-count: 1;
 }
 
 .social a i {
@@ -103,6 +130,18 @@ p {
 
 .footer {
     background-color: $background-color;
+}
+.footer:after {
+    background: url($background-image-url);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .05;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 201;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -126,6 +165,12 @@ a .site-title:hover {
     border: 1px dotted $font-color;
     border-radius: 2px;
     margin-top: 1.4rem;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0);
+}
+
+.index:hover{
+    animation: shake $animation-time;
+    animation-iteration-count: 1;
 }
 
 .center {
@@ -177,18 +222,6 @@ a .site-title:hover {
     width: 100%;
 }
 
-.site-header::after {
-    content: "";
-    background: url($background-image-url);
-    opacity: 0.1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  }
-
 .text-center {
     text-align: center;
 }
@@ -199,6 +232,7 @@ a .site-title:hover {
     height: 0;
     overflow: hidden;
     max-width: 100%;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0);
 }
 
 .embed-container iframe,

@@ -170,8 +170,37 @@ Kmom05{#kmom05 .about-h2}
 </ul>
 </div>
 
+
 <div class ="index center" markdown='1'>
-#### Good to know stuff
+Kmom06{#kmom06 .about-h2}
+--------------- 
+<ul>
+<li markdown="1">Designprinciper finns här: [Infographic designprinciper](https://static-cse.canva.com/blob/561631/20DP_Infographic.jpg) // [Canva Design Principles](https://www.canva.com/learn/design-elements-principles/)</li>
+<li markdown="1">Det är viktigt att man följer principerna!</li>
+<li markdown="1">Vi följer redan många av dem naturligt (balans, färg, symmetri etc.)</li>
+<li markdown="1">Accessibility går att snabbkolla med lighthouse. Är detta allt för att klara av de nya EU-kraven?</li>
+<li markdown="1">Hade varit riktigt coolt att bygga en sån här sida: [Shimane Misato](https://www.town.shimane-misato.lg.jp/misatoto/)</li>
+<li markdown="1">Ganska svårt att lägga till och ändra större designprinciper i efterhand. Det är kanske bättre att tänka igenom sidan från början</li>
+<li markdown="1">De personsidor som jag undersökte var i princip kopior av varandra med tanke på designprinciper</li>
+<li markdown="1">Kom ihåg hur man la till grainy structure på sin sida, efter sista elementet kan man lägga: `:after {
+    background: url(URL-TILL-STATIC-NOISE-BILD);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .05;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 201;
+}`</li>
+
+</ul>
+</div>
+
+<div class ="index center" markdown='1'>
+Good to know stuff
+--------------- 
 * sass --watch focus/scss/style.scss focus/css/style.min.css --no-source-map --style compressed
 * npm run style-focus-dark && npm run style-focus-dark-min && npm run style-focus-light && npm run style-focus-light-min
 * git tag -a v4.0.1 -m "Adding new color scheme"

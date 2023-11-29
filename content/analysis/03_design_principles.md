@@ -80,13 +80,13 @@ David McRaney upprepar samma designprinciper på sina undersidor: symmetri, bala
 <h3 class="analysis-h3">Selena Gomez</h3>
 
 <div class="analysis-container" markdown="1">
-<h4 class="analysis-h4">Sidans syfte(4.1)</h4>
+<h2 class="analysis-h4">Sidans syfte(4.1)</h2>
 Selena Gomez är en sångare och en skådespelare. Sidans syfte är att vara en hemvist åt henne som varumärke. Här finns länkar till hennes shop, musik, välgörenhetsengagemang, butik, filmer, TV-serier, social media med mera. 
-<h4 class="analysis-h4">Sidans design(4.2)</h4>
+<h2 class="analysis-h4">Sidans design(4.2)</h2>
 Som Ronaldos sida så består Selenas framsida av stora klart avgränsade block som täcker hela viewporten. Framsidan visar ett axplock av hennes alster. Det finns en sticky navbar på sidan, den har även ikoner med hennes social media (i normala fall brukar detta vara i footern). Hon har en viss textur/struktur som bidrar till en drömsk känsla. Hennes bilder får en att tänka på Audrey Hepburn och 50-/60-tal samt ibland på Wes Anderson filmer.
-<h4 class="analysis-h4">Designens känsla(4.3)</h4>
+<h2 class="analysis-h4">Designens känsla(4.3)</h2>
 Designen lyfter fram skådisen och artisten Selena Gomez. Sidan har en dimmig struktur som ger en drömsk känsla och får en att tro att Selena vill profilera sig mer som en konstnärlig person än som en popstjärna. Från det jag känner till om Selena Gomez så tänkte jag att hennes sida skulle vara "gladare" och mindre drömsk och konstnärlig. Om designens syfte är att få en att tänka på henne som en vuxen konstnär så tycker jag att den uppfylls.
-<h4 class="analysis-h4">Designprinciper och designelement(4.4)</h4>
+<h2 class="analysis-h4">Designprinciper och designelement(4.4)</h2>
 Sidan använder sig av dessa designprinciper:
 <ul class="ol-analysis">
 <li>Repetition &mdash; Det verkar som att även Selena Gomez framsida har samma block-design som Cristiano Ronaldo. Varje skrollning på framsidan tar en till ett snarlikt block som visar upp något nytt från hennes register. Det är mycket bilder på henne med samma (som säger: "jag är Selena, jag är seriös så jag visar inga känslor") även utanför framsidan. </li>
@@ -95,7 +95,7 @@ Sidan använder sig av dessa designprinciper:
 <li>Textur &mdash; Framsidan känns lite dimmig (som att man har gjort bilderna lite suddiga och mörkare). På undersidorna och framsidan finns en bakgrundsbild som ser ut som sotpartiklar (alt. snöpartiklar beroende på bakgrundsfärg) som rör sig uppåt. Speciellt på framsidan passar detta väl ihop med filtret på bilderna.</li>  
 </ul>
 
-<h4 class="analysis-h4">Designprinciper för undersidor(4.5)</h4>
+<h2 class="analysis-h4">Designprinciper för undersidor(4.5)</h2>
 De tre första undersidorna Music, News, Videos och Film & TV verkar vara stöpta i samma form som framsidan. Dock så består de av grid-gallerier med bilder på hennes olika verk istället för den där blockvisa-designen (som Selena delar med David McRaneys och Cristano Ronaldos framsidor). Ett av blocken på framsidan skulle kunna ersättas med en avskalad version av undersidorna och det hade ändå känts naturligt. Framsidans färger skulle kunna utgöra darkmode medan de nämnda sidorna skulle kunna vara normal/day mode. Sidan inger inte samma känsla som McRaneys sida som att den är gjord med ett färdigt tema i ett CMS. Det känns som att någon har lagt mycket tanke bakom den. Tydligen är den gjord i Wordpress: [Built With](https://builtwith.com/?https%3a%2f%2fwww.selenagomez.com%2f)
 </div>
 
@@ -118,14 +118,14 @@ Nu när jag har analyserat sidorna så tror jag att jag hade kunnat skapa liknan
 Analys av min sida{.analysis-h1}
 -----------------------
 
-<h4 class="analysis-h4">Sidans design(4.2)</h4>
+<h2 class="analysis-h4">Sidans design(4.2)</h2>
 Sidan har en enkel kolumnbaserad design med en navigationsmeny vid toppen och en enkel footer med ikoner på social media. Fonten känns "tunn" och teknisk. Färgschemat är minimalistisk med  pastellgrön som huvudsaklig färg.
 
-<h4 class="analysis-h4">Designens känsla(4.3)</h4>
+<h2 class="analysis-h4">Designens känsla(4.3)</h2>
 Designen är relativt platt och det är få bilder(förutom i galleriet). Överlag ger sidan samma känsla som ett i huvudsak textbaserat 16-bitars spel från 90-/00-talen. 
 
 Om sidans syfte är att testa relativt enkla webbdesignkoncept samt att visa upp analysrapporter i textformat, då uppfylls syftet. Om syftet är att skapa en behaglig, fröjd för ögat med nya kreativa sätt att använda designmönster då uppfylls inte syftet. 
-<h4 class="analysis-h4">Designprinciper och designelement(4.4)</h4>
+<h2 class="analysis-h4">Designprinciper och designelement(4.4)</h2>
 Sidan har inte en uttalad tanke bakom designprinciperna. Utan den har designats utifrån erfarenhet och en vision av att den ska hållas enkel men inte som att den är ogenomtänkt. Följande designprinciper har identifierats:
 <ul class="ol-analysis">
 <li>Grid &mdash; Sidan består av en rutnäts- och kolumnbaserad design. Aside, header+navigationsmeny, footer samt behållare med relevant text är skapat enligt rutnät.</li>
@@ -134,10 +134,10 @@ Sidan har inte en uttalad tanke bakom designprinciperna. Utan den har designats 
 <li>Repetition &mdash; Alla sidor följer samma upplägg med header, navigationsmeny och footer. Det hade förmodligen gått att göra repetition på ett fyndigt sätt som inte känns monoton. Kanske hade navigationsmenyn kunnat behålla sitt huvudsakliga utseende men bytt färg beroende på sida?</li>  
 </ul>
 
-<h4 class="analysis-h4">Designprinciper för undersidor(4.5)</h4>
+<h2 class="analysis-h4">Designprinciper för undersidor(4.5)</h2>
 Undersidorna använder sig av samma designprinciper. Ibland så läggs det mer fokus på vissa delar: exempelvis så läggs det fokus på att balansera rutor med olika storlekar i Technologies-sidan och i gallery är gridden helt balanserad. Precis som framsidan så är designprinciperna som används inte särskilt välutvecklade. Det har inte funnits någon avancerad tanke bakom dem och inga risker har tagits.
 
-<h4 class="analysis-h4">Förbättringsförslag utifrån analys</h4>
+<h2 class="analysis-h4">Förbättringsförslag utifrån analys</h2>
 Jag hade velat vara mer kreativ framöver med designpatterns. Jag tänker inte ändra min sida överdrivet mycket men hade kunnat tänka mig att ha samma blockdesign som Cristiano Ronaldo och Selena Gomez på min framsida. Den hade innehållit lite highlights från alla kursmoment hittills. Alltså att när man skrollar så ser man block med utvalda delar från mina lösningar på kursmomenten.
 
 Det är svårt att få till färgkombinationer som ser bra ihop med allt annat och jag vill inte riskera att det blir ännu värre. Jag hade även kunnat tänka mig att göra min footer och navigationsmeny mer i linje med övriga designen.
@@ -148,8 +148,13 @@ Om jag hade haft mer innehåll på sidan så hade jag velat att testa designprin
 
 Måste också lägga till att det är nog mycket lättare att ändra struktur på en sida ifall man använder sig av ett no code CMS som Wordpress eller Squarespace och därför kan jag kanske inte mäta mig mot Selena Gomez/David McRaney (än).
 
-<h4 class="analysis-h4">Uppdateringar utifrån analys</h4>
-Kommer sen.
+<h2 class="analysis-h4">Uppdateringar utifrån analys</h2>
+Jag implementerade dessa designprinciper:
+<ul class="ol-analysis">
+<li>Textur/struktur &mdash; jag la till ett white noise texture på alla mina element. Min sida är mer grainy nu än innan.</li>
+<li>Rörelse/repetition &mdash; jag såg till så att mina element med innehåll vibrerar när man hovrar över dem.</li>
+<li>Djup &mdash; mina element med innehåll (aside, main, article, navbar, footer, gallery) får en box shadow och ett djup. Denna harmoniserar väl med rörelse-designprincipen. Det ser ut som att mina element flyter ovan ytan och när man hovrar över dem så vibrerar.</li>
+</ul>
 
 Referenser{.analysis-h1}
 -----------------------

@@ -49,7 +49,7 @@ Snapshot: Klicka på bilden för större format
 </div>
 
 <div class="embed-container">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQGvOyWoN7Un_GVMEGg7k0Er5nN04LKHYyEVYZzm9f568xGXwr0d_qqVY2szB_cn1RvXJU9etbXTunq/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQGvOyWoN7Un_GVMEGg7k0Er5nN04LKHYyEVYZzm9f568xGXwr0d_qqVY2szB_cn1RvXJU9etbXTunq/pubhtml?widget=true&amp;headers=false" title="Spreadsheet with data from analysis of Cristiano Ronaldo's page "></iframe>
 </div>
 
 <h4 class="analysis-h4">Förbättringar</h4>
@@ -70,7 +70,7 @@ Snapshot: Klicka på bilden för större format
 </div>
 
 <div class="embed-container">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2b3a8SOL2WSqTlY7TCZE9Z9O_u85MfVSjjS_wacbBMAywPsfQ8mJ91Icxn1P4lJ8PXsm-_5H0FTT_/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2b3a8SOL2WSqTlY7TCZE9Z9O_u85MfVSjjS_wacbBMAywPsfQ8mJ91Icxn1P4lJ8PXsm-_5H0FTT_/pubhtml?widget=true&amp;headers=false" title="Spreadsheet with data from analysis of David McRaney's page"></iframe>
 </div>
 
 <h4 class="analysis-h4">Förbättringar</h4>
@@ -86,7 +86,7 @@ Snapshot: Klicka på bilden för större format
 </div>
 
 <div class="embed-container">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQdtDIAA8vEfRHwVSIt-DbrEeccfpf2nXoQQRKNLv-0Nsu06_tHF63nAZPgGvnzxfW3o_ihDbfRPMwQ/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQdtDIAA8vEfRHwVSIt-DbrEeccfpf2nXoQQRKNLv-0Nsu06_tHF63nAZPgGvnzxfW3o_ihDbfRPMwQ/pubhtml?widget=true&amp;headers=false" title="Spreadsheet with data from analysis of Selena Gomez's page"></iframe>
 </div>
 
 <h4 class="analysis-h4">Förbättringar</h4>
@@ -116,14 +116,14 @@ Den åtgärd som är enklast men kanske smärtsammast för ytliga kändisar är 
 
 Jag får undersöka senare vad dessa "modernare" bildformat innebär.
 
-<h4 class="analysis-h4">Gräns för laddningstid</h4>
+<h2 class="analysis-h4">Gräns för laddningstid</h2>
 
 Jag skulle bedöma att en sida som tar längre tid än <b>2-3</b> sekunder att ladda fullständigt är långsam för mig. Jag har arbetat i en del webbaserade verktyg som tar otroligt lång tid på sig att ladda nya sidor och det är en stor frustration i det. Tar det längre tid än ett par sekunder då har jag tappat den mentala tråden och vill söka mig annanstans. Jag tänker också att ifall jag måste göra något på hemsidan så kommer varje klick ta >3 sekunder. Av den anledningen så föredrar jag även textbaserade minimalistiska sidor där allt som man vill hitta går att hitta med en snabb skanning. 
 
 David McRaney's sida klarar min tidsgräns medan CR och Selena Gomez klarar inte den alltid (nu tänker jag på "load"-värdet). Trots detta så känner jag inte en alltför stor frustration när jag är inne på SG/CR:s sidor. Jag tror det beror på att det går att interagera med sidorna och det finns ändå en del meningsfull info innan de är fulladdade. Detta märks på First Contentful Paint/Interaction to Next Paint-statistiken. Dessa är höga på CR/SG men vissa av dem ligger runt mina 2-3 sekunder som jag ansåg vara maxgränsen för färdigladdad sida. 
 
 
-<h4 class="analysis-h4">Rangordning av sidorna</h4>
+<h2 class="analysis-h4">Rangordning av sidorna</h2>
 
 Jag rangordnar sidorna i laddningstid enligt:
 <ol class="ol-analysis">

@@ -7,5 +7,5 @@ Description: Page about my hobby
 Min Hobby
 ====
 
-Jag har tyvärr inga hobbies. Jag är ett tomt kärl.
+Här kommer jag skriva om alla mina hobbies. 
 </div>
