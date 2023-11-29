@@ -63,7 +63,7 @@ Fonterna han har använt sig av är:
 <td style="font-family:proxima-nova">Brödtext: proxima-nova</td>
 </tr>
 </table>
-Jag får intrycket av att Cristiano Ronaldo vill verka cool, elegant och "världslig" i sina bilder, dvs. en snubbe som är badass, always on the go, välklädd och som inte tänker för mycket. Om det inte vore för hans bilder så faktiskt lyckats åstadkomma detta. Färgen orange (som syns emellanåt på sidan) hjälper till med att ge ett energiskt intryck[1].
+Jag får intrycket av att Cristiano Ronaldo vill verka cool, elegant och "världslig" i sina bilder, dvs. en snubbe som är badass, always on the go, välklädd och som inte tänker för mycket. Om det inte vore för hans bilder så hade han faktiskt lyckats åstadkomma detta. Färgen orange (som syns emellanåt på sidan) hjälper till med att ge ett energiskt intryck[1].
 
 </div>
 

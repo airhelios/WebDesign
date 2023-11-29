@@ -34,7 +34,7 @@ Licensen på alla bilder är CC0.
 <picture class="gallery-img">
     <source media="(min-width: 767px)" srcset="image/gallery/colorful-libreshot.jpg?w=767&h=400&crop-to-fit">
     <source media="(min-width: 376px)" srcset="image/gallery/colorful-libreshot.jpg?w=376&h=400&crop-to-fit">
-    <img class="gallery-img" src="image/gallery/butterfly-snappygoat.jpg?w=375" alt="Colorful picture from Libreshot">
+    <img class="gallery-img" src="image/gallery/colorful-libreshot.jpg?w=375" alt="Colorful picture from Libreshot">
 </picture>
 </a>
 </div>
@@ -44,7 +44,7 @@ Licensen på alla bilder är CC0.
 <picture class="gallery-img">
     <source media="(min-width: 767px)" srcset="image/gallery/Dingo_snappygoat.jpg?w=767&h=400&crop-to-fit">
     <source media="(min-width: 376px)" srcset="image/gallery/Dingo_snappygoat.jpg?w=376&h=400&crop-to-fit">
-    <img class="gallery-img" src="image/gallery/butterfly-snappygoat.jpg?w=375" alt="Picture of a dingo from Snappygoat">
+    <img class="gallery-img" src="image/gallery/Dingo_snappygoat.jpg?w=375" alt="Picture of a dingo from Snappygoat">
 </picture>
 </a>
 </div>
@@ -54,7 +54,7 @@ Licensen på alla bilder är CC0.
 <picture class="gallery-img">
     <source media="(min-width: 767px)" srcset="image/gallery/griffin-wikimedia.jpg?w=767&h=400&crop-to-fit">
     <source media="(min-width: 376px)" srcset="image/gallery/griffin-wikimedia.jpg?w=376&h=400&crop-to-fit">
-    <img class="gallery-img" src="image/gallery/butterfly-snappygoat.jpg?w=375" alt="Picture of a griffin from Wikimedia">
+    <img class="gallery-img" src="image/gallery/griffin-wikimedia.jpg.jpg?w=375" alt="Picture of a griffin from Wikimedia">
 </picture>
 </a>
 </div>

@@ -21,6 +21,6 @@ Technologies{.span-3}
 <div class="box span-1">
 
 <a href="./analysis/03_design_principles"><h2 class="text-center">Kmom06-design principles</h2></a>
-<p class="tech">03_design_principles.</p>
+<p class="tech">Genomgång av designprinciper på de tre personsidorna.</p>
 </div>
 

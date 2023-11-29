@@ -43,7 +43,7 @@ Resultat{.analysis-h1}
 -----------------------
 <h3 class="analysis-h3">Cristiano Ronaldo</h3>
 <div class="analysis-container" markdown="1">
-Snaphot: Klicka på bilden för större format
+Snapshot: Klicka på bilden för större format
 <div class="analysis-row" markdown="1">
 <a href="%assets_url%/img/load/cr-brands.png" class="analysis-img">![Snapshot of CR:s Brands-sida](../image/load/cr-brands.png?width=33%&save-as=jpeg){.img-1 .img-padded}</a>
 </div>
@@ -64,7 +64,7 @@ Förvånande nog så är CR:s Brand-sida helt OK när det gäller desktop-varian
 
 <h3 class="analysis-h3">David McRaney</h3>
 <div class="analysis-container" markdown="1">
-Snaphot: Klicka på bilden för större format
+Snapshot: Klicka på bilden för större format
 <div class="analysis-row" markdown="1">
 <a href="%assets_url%/img/load/dm-new-page.png" class="analysis-img">![Snapshot of David McRaney's "New"-sida](../image/load/dm-new-page.png?width=50%&save-as=jpeg){.img-1 .img-padded}</a>
 </div>
@@ -80,7 +80,7 @@ En bra sida som vinner på att den är liten. Desktop är betydligt bättre än 
 
 <h3 class="analysis-h3">Selena Gomez</h3>
 <div class="analysis-container" markdown="1">
-Snaphot: Klicka på bilden för större format
+Snapshot: Klicka på bilden för större format
 <div class="analysis-row" markdown="1">
 <a href="%assets_url%/img/load/sg-film-tv.png" class="analysis-img">![Snapshot of Selena Gomez's "Film-TV"-sida](../image/load/sg-film-tv.png?width=40%&save-as=jpeg){.img-1 .img-padded}</a>
 </div>
