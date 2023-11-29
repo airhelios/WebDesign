@@ -3,7 +3,7 @@ Title: Analysis
 Description: This is my report page
 Template: technologies
 ---
-Technologies{.span-3}
+Analysis{.span-3}
 ========================== 
 
 <div class="box span-1">

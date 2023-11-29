@@ -1,0 +1,19 @@
+// @import 'variables';
+
+
+%code {
+    font-style: oblique;
+    background-color: $code-background;
+    text-wrap: wrap;
+    color: $font-color-3;
+
+}
+
+code {
+    @extend %code;
+}
+
+.code 
+{
+    @extend %code;
+}
