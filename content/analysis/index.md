@@ -24,3 +24,15 @@ Analysis{.span-3}
 <p class="tech">Genomgång av designprinciper på de tre personsidorna.</p>
 </div>
 
+<div class="box span-1">
+
+<a href="./analysis/10_webbplatsdesign"><h2 class="text-center">Kmom10 krav 5</h2></a>
+<p class="tech">Analys av webbplatsdesign till kmom10 (krav 5)</p>
+</div>
+
+<div class="box span-1">
+
+<a href="./analysis/11_design-och-webbplatser"><h2 class="text-center">Kmom10 krav 6</h2></a>
+<p class="tech">Genomgång av designprinciper till kmom10 (krav 6)</p>
+</div>
+
