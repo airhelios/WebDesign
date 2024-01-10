@@ -17,7 +17,7 @@
     background-color: $soft-white;
     border: 1px dashed $font-color;
     height: auto;
-    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0);
+    box-shadow: 0 -5px 10px 0 rgba(0, 0, 0);
 }
 
 .aside:hover {
@@ -34,7 +34,7 @@
     order: 2;
     background-color: $soft-white;
     border: 1px dashed $font-color;
-    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0);
+    box-shadow: 0 -5px 10px 0 rgba(0, 0, 0);
 }
 
 .article:hover{

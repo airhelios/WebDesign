@@ -6531,6 +6531,7 @@ template {
   margin-top: 0;
   justify-self: center;
   color: #e0e0e0;
+  text-shadow: -1px 3px rgb(0, 0, 0);
 }
 
 .box {
@@ -6538,8 +6539,49 @@ template {
   border-radius: 5px;
   padding: 0.25rem;
   background-color: #e0e0e0;
+  box-shadow: 0 -5px 10px 0 rgb(0, 0, 0);
 }
 
+.box:hover {
+  animation: shake 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-0.25deg);
+  }
+  20% {
+    transform: rotate(0.25deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(0.25deg);
+  }
+  50% {
+    transform: rotate(-0.25deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-0.25deg);
+  }
+  80% {
+    transform: rotate(0.25deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-0.25deg);
+  }
+}
 .tech {
   border-top: 2px dotted #181115;
 }
@@ -6575,6 +6617,12 @@ template {
   background-color: #e0e0e0;
   border: 1px dashed #181115;
   height: auto;
+  box-shadow: 0 -5px 10px 0 rgb(0, 0, 0);
+}
+
+.aside:hover {
+  animation: shake 1s;
+  animation-iteration-count: 1;
 }
 
 .article {
@@ -6586,8 +6634,49 @@ template {
   order: 2;
   background-color: #e0e0e0;
   border: 1px dashed #181115;
+  box-shadow: 0 -5px 10px 0 rgb(0, 0, 0);
 }
 
+.article:hover {
+  animation: shake 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-0.25deg);
+  }
+  20% {
+    transform: rotate(0.25deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(0.25deg);
+  }
+  50% {
+    transform: rotate(-0.25deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-0.25deg);
+  }
+  80% {
+    transform: rotate(0.25deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-0.25deg);
+  }
+}
 .ul-aside {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -6647,6 +6736,17 @@ template {
   text-align: center;
 }
 
+.analysis-h2 {
+  font-weight: bold;
+  color: #e0e0e0;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  background-color: #181115;
+  padding: 0.5rem;
+  text-align: center;
+}
+
 .analysis-h3 {
   margin-top: 1rem;
   text-align: center;
@@ -6658,6 +6758,13 @@ template {
   margin-top: 1rem;
   text-align: center;
   font-size: 1.25rem;
+  margin-bottom: 0.35rem;
+}
+
+.analysis-h5 {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
   margin-bottom: 0.35rem;
 }
 
@@ -6688,6 +6795,23 @@ template {
 .img-3 {
   max-width: 32%;
   filter: brightness(0.8) contrast(1.2);
+}
+
+.kmom0506 p {
+  margin: 1rem;
+}
+.kmom0506 img {
+  display: block;
+  margin: 0 auto;
+}
+.kmom0506 li {
+  margin-left: 1rem;
+}
+.kmom0506 table {
+  border-collapse: collapse;
+}
+.kmom0506 td, .kmom0506 th {
+  border: 1px solid #000;
 }
 
 .about-h2 {
@@ -6723,6 +6847,7 @@ template {
   padding: 1.4rem;
   margin-top: 1.4rem;
   margin-bottom: 1.4rem;
+  box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .gallery-main h1 {
@@ -6737,12 +6862,54 @@ template {
   margin-right: auto;
 }
 
+.gallery-box:hover {
+  animation: shake 1s;
+  /* When the animation is finished, start again */
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-0.25deg);
+  }
+  20% {
+    transform: rotate(0.25deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(0.25deg);
+  }
+  50% {
+    transform: rotate(-0.25deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-0.25deg);
+  }
+  80% {
+    transform: rotate(0.25deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-0.25deg);
+  }
+}
 .gallery-paragraph {
   border-radius: 2px;
 }
 
 .gallery-img {
   max-width: 100%;
+  box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .gallery-h1 {
@@ -6764,6 +6931,46 @@ template {
   border-radius: 2px;
 }
 
+.nav-ul:hover {
+  animation: shake 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: trotate(-0.25deg);
+  }
+  20% {
+    transform: rotate(0.25deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(0.25deg);
+  }
+  50% {
+    transform: rotate(-0.25deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-0.25deg);
+  }
+  80% {
+    transform: trotate(0.25deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-0.25deg);
+  }
+}
 html, body {
   height: 100%;
   line-height: 1.4rem;
@@ -6784,6 +6991,18 @@ a:hover {
 body {
   background-color: #111814;
   overflow-y: scroll; /* Always display scrollbar, avoid hopping pages */
+}
+
+body::after {
+  content: "";
+  background: url("../../../assets/img/1k_Dissolve_Noise_Texture.png");
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
 }
 
 .hidden {
@@ -6814,6 +7033,12 @@ p {
   flex-direction: columns;
   justify-content: center;
   gap: 2rem;
+  box-shadow: 0 -1px 3px 0 rgb(0, 0, 0);
+}
+
+.social:hover {
+  animation: shake 1s;
+  animation-iteration-count: 1;
 }
 
 .social a i {
@@ -6822,6 +7047,19 @@ p {
 
 .footer {
   background-color: #e0e0e0;
+}
+
+.footer::after {
+  background: url("../../../assets/img/1k_Dissolve_Noise_Texture.png");
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.05;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 201;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -6845,6 +7083,12 @@ a .site-title:hover {
   border: 1px dotted #181115;
   border-radius: 2px;
   margin-top: 1.4rem;
+  box-shadow: 0 -5px 10px 0 rgb(0, 0, 0);
+}
+
+.index:hover {
+  animation: shake 1s;
+  animation-iteration-count: 1;
 }
 
 .center {
@@ -6893,7 +7137,6 @@ a .site-title:hover {
 
 .site-header {
   width: 100%;
-  background-color: #111814;
 }
 
 .text-center {
@@ -6906,6 +7149,7 @@ a .site-title:hover {
   height: 0;
   overflow: hidden;
   max-width: 100%;
+  box-shadow: 0 -5px 10px 0 rgb(0, 0, 0);
 }
 
 .embed-container iframe,

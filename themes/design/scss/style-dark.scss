@@ -76,7 +76,7 @@ body {
     overflow-y: scroll;    /* Always display scrollbar, avoid hopping pages */
 }
 
-body:after {
+body::after {
     content: "";
     background: url($background-image-url);
     opacity: 0.1;
@@ -116,7 +116,7 @@ p {
     flex-direction: columns;
     justify-content: center;
     gap: 2rem;
-    box-shadow: 0px -1px 3px 0px rgba(0, 0, 0);
+    box-shadow: 0 -1px 3px 0 rgba(0, 0, 0);
 }
 
 .social:hover{
@@ -131,7 +131,8 @@ p {
 .footer {
     background-color: $background-color;
 }
-.footer:after {
+
+.footer::after {
     background: url($background-image-url);
     content: "";
     height: 100%;
@@ -165,7 +166,7 @@ a .site-title:hover {
     border: 1px dotted $font-color;
     border-radius: 2px;
     margin-top: 1.4rem;
-    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0);
+    box-shadow: 0 -5px 10px 0 rgba(0, 0, 0);
 }
 
 .index:hover{
@@ -232,7 +233,7 @@ a .site-title:hover {
     height: 0;
     overflow: hidden;
     max-width: 100%;
-    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0);
+    box-shadow: 0 -5px 10px 0 rgba(0, 0, 0);
 }
 
 .embed-container iframe,
