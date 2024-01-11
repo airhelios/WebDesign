@@ -8,6 +8,7 @@ Template: analysis
 
 ## Urval{.analysis-h2}
 
+Organisationen Valfrihet har kontaktat kontaktat författarna för att göra en analys inom design och webbplatser.
 
 Analysen väljs att göras på följande Ludviga Af Solstråle-sida (av Owais Sulehria)[1]:
 
